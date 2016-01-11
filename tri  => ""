@@ -1,0 +1,4 @@
+.exit not found, maybe you meant:
+
+Bundler::Thor::Base::ClassMethods#exit_on_failure?
+Thor::Base::ClassMethods#exit_on_failure?
