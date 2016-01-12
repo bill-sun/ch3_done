@@ -1,23 +1,22 @@
   /home/bill/rails_app/home/ch3_done:
-  total 84
-  drwxrwxr-x. 8 bill bill  4096 Jan  8 09:34 app
-  drwxrwxr-x. 2 bill bill  4096 Jan  8 09:34 bin
-  drwxrwxr-x. 5 bill bill  4096 Jan  8 09:34 config
-  -rw-rw-r--. 1 bill bill   153 Jan  8 09:34 config.ru
-  drwxrwxr-x. 2 bill bill  4096 Jan 11 11:48 db
-  -rw-rw-r--. 1 bill bill     0 Jan 11 16:50 dired
-  -rw-rw-r--. 1 bill bill 15873 Jan 11 16:49 dired.0
-  -rw-rw-r--. 1 bill bill  1877 Jan  8 09:34 Gemfile
-  -rw-rw-r--. 1 bill bill  5164 Jan  8 09:35 Gemfile.lock
-  drwxrwxr-x. 4 bill bill  4096 Jan  8 09:34 lib
-  drwxrwxr-x. 2 bill bill  4096 Jan  8 10:58 log
-  drwxrwxr-x. 4 bill bill  4096 Jan 11 11:46 public
-  -rw-rw-r--. 1 bill bill   249 Jan  8 09:34 Rakefile
-  -rw-rw-r--. 1 bill bill   478 Jan  8 09:34 README.rdoc
-  drwxrwxr-x. 6 bill bill  4096 Jan 11 16:49 spec
-  drwxrwxr-x. 6 bill bill  4096 Jan  8 11:09 tmp
-  -rw-r--r--. 1 bill bill   128 Jan  8 11:06 tri  => ""
-  drwxrwxr-x. 3 bill bill  4096 Jan  8 09:34 vendor
+  total 68
+  drwxrwxr-x. 8 bill bill 4096 Jan  8 09:34 app
+  drwxrwxr-x. 2 bill bill 4096 Jan  8 09:34 bin
+  drwxrwxr-x. 5 bill bill 4096 Jan  8 09:34 config
+  -rw-rw-r--. 1 bill bill  153 Jan  8 09:34 config.ru
+  drwxrwxr-x. 2 bill bill 4096 Jan 11 11:48 db
+  -rw-rw-r--. 1 bill bill    0 Jan 12 16:01 dired
+  -rw-rw-r--. 1 bill bill 1877 Jan  8 09:34 Gemfile
+  -rw-rw-r--. 1 bill bill 5164 Jan  8 09:35 Gemfile.lock
+  drwxrwxr-x. 4 bill bill 4096 Jan  8 09:34 lib
+  drwxrwxr-x. 2 bill bill 4096 Jan  8 10:58 log
+  drwxrwxr-x. 4 bill bill 4096 Jan 11 11:46 public
+  -rw-rw-r--. 1 bill bill  249 Jan  8 09:34 Rakefile
+  -rw-rw-r--. 1 bill bill  478 Jan  8 09:34 README.rdoc
+  drwxrwxr-x. 6 bill bill 4096 Jan 11 16:49 spec
+  drwxrwxr-x. 6 bill bill 4096 Jan  8 11:09 tmp
+  -rw-r--r--. 1 bill bill  128 Jan  8 11:06 tri  => ""
+  drwxrwxr-x. 3 bill bill 4096 Jan  8 09:34 vendor
 
   /home/bill/rails_app/home/ch3_done/app:
   total 24
