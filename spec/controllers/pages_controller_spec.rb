@@ -10,7 +10,7 @@ RSpec.describe PagesController, type: :controller do
 	it "should have the right title" do
 	  get :home
 	  expect(response.body).to have_selector("title",
-								             :text => "Ruby on Rails Tutorial Sample App | Home",
+								             :text => "Home",
                                              :visible => false)
 
 	end
@@ -25,7 +25,7 @@ RSpec.describe PagesController, type: :controller do
 	it "should have the right title" do
 	  get :contact
 	  expect(response.body).to have_selector("title",
-								             :text => "Ruby on Rails Tutorial Sample App | Contact",
+								             :text => "Contact",
                                              :visible => false)
 	end
     
@@ -34,12 +34,14 @@ RSpec.describe PagesController, type: :controller do
   describe "GET #about" do
     it "returns http success" do
       get :about
+      #get /about(.:format) pages#about
       expect(response).to have_http_status(:success)
     end
 	it "should have the right title" do
 	  get :about
+      #get /about(.:format) pages#about
 	  expect(response.body).to have_selector("title",
-								             :text => "Ruby on Rails Tutorial Sample App | About",
+								             :text => "About",
                                              :visible => false)
 	end
     
