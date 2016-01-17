@@ -1,59 +1,37 @@
 require 'rails_helper'
 
 RSpec.describe "LayoutLinks", type: :request do
-#  describe "GET /layout_links" do
-#    it "works! (now write some real specs)" do
-#      get layout_links_index_path
-#      expect(response).to have_http_status(200)
-#    end
-#  end
-#
+  #  describe "GET /layout_links" do
+  #    it "works! (now write some real specs)" do
+  #      get layout_links_index_path
+  #      expect(response).to have_http_status(200)
+  #    end
+  #  end
+  #
 
   describe "LayoutLinks" do
 
 
     it "returns http success" do
       get home_path
+      get '/'
       expect(response).to have_http_status(:success)
     end
-
-    it "should have a Home page at '/'" do
-      get home_path
-      expect(response.body).to have_xpath("//title", :text => "Ruby on Rails Tutorial Sample App | Home")
-
-#      have_selector('title',
-#                                             :text => "Ruby on Rails Tutorial Sample App | Home",
-#                                             :visible => false)
-#
-
-    end
-
-    it "should have a Contact page at '/contact'" do
-      # get '/contact'
+    it "returns http success" do
       get contact_path
-      expect(response.body).to have_selector('title',
-                                             :text => "Ruby on Rails Tutorial Sample App | Contact",
-                                             :visible => false)
+      get '/contact'
+      expect(response).to have_http_status(:success)
     end
-
-    it "should have an About page at '/about'" do
+    it "returns http success" do
+      get about_path
       get '/about'
-      expect(response.body).to have_selector('title',
-                                             :text => "Ruby on Rails Tutorial Sample App | About",
-                                             :visible => false)
+      expect(response).to have_http_status(:success)
     end
-
-    it "should have a Help page at '/help'" do
+    it "returns http success" do
+      get help_path
       get '/help'
-      expect(response.body).to have_selector('title',
-                                             :text => "Ruby on Rails Tutorial Sample App | Help",
-                                             :visible => false)
+      expect(response).to have_http_status(:success)
     end
   end
   
 end
-
-#	  expect(response.body).to have_selector("title",
-#								             :text => "Ruby on Rails Tutorial Sample App | Home",
-#                                             :visible => false)
-#

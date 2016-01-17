@@ -1,163 +1,164 @@
 .:
 total 68
-drwxrwxr-x. 8 bill bill 4096 Jan  8 09:34 app
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:34 bin
-drwxrwxr-x. 5 bill bill 4096 Jan 13 14:46 config
--rw-rw-r--. 1 bill bill  153 Jan  8 09:34 config.ru
-drwxrwxr-x. 2 bill bill 4096 Jan 13 14:51 db
--rw-rw-r--. 1 bill bill    0 Jan 13 14:53 dired
--rw-rw-r--. 1 bill bill 1877 Jan  8 09:34 Gemfile
--rw-rw-r--. 1 bill bill 5164 Jan  8 09:35 Gemfile.lock
-drwxrwxr-x. 4 bill bill 4096 Jan  8 09:34 lib
-drwxrwxr-x. 2 bill bill 4096 Jan  8 10:58 log
-drwxrwxr-x. 4 bill bill 4096 Jan 11 11:46 public
--rw-rw-r--. 1 bill bill  249 Jan  8 09:34 Rakefile
--rw-rw-r--. 1 bill bill  478 Jan  8 09:34 README.rdoc
-drwxrwxr-x. 6 bill bill 4096 Jan 13 14:44 spec
-drwxrwxr-x. 6 bill bill 4096 Jan  8 11:09 tmp
--rw-r--r--. 1 bill bill  128 Jan  8 11:06 tri  => ""
-drwxrwxr-x. 3 bill bill 4096 Jan  8 09:34 vendor
+drwxrwxr-x. 8 bill bill 4096 Jan 17 21:12 app
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 bin
+drwxrwxr-x. 5 bill bill 4096 Jan 17 21:12 config
+-rw-rw-r--. 1 bill bill  153 Jan 17 21:12 config.ru
+drwxrwxr-x. 2 bill bill 4096 Jan 17 23:13 db
+-rw-rw-r--. 1 bill bill    0 Jan 17 23:29 dired
+-rw-rw-r--. 1 bill bill 1877 Jan 17 21:12 Gemfile
+-rw-rw-r--. 1 bill bill 5164 Jan 17 21:12 Gemfile.lock
+drwxrwxr-x. 4 bill bill 4096 Jan 17 21:12 lib
+drwxrwxr-x. 2 bill bill 4096 Jan 17 23:09 log
+drwxrwxr-x. 4 bill bill 4096 Jan 17 21:12 public
+-rw-rw-r--. 1 bill bill  249 Jan 17 21:12 Rakefile
+-rw-rw-r--. 1 bill bill  478 Jan 17 21:12 README.rdoc
+drwxrwxr-x. 6 bill bill 4096 Jan 17 21:12 spec
+drwxrwxr-x. 6 bill bill 4096 Jan 17 23:11 tmp
+-rw-rw-r--. 1 bill bill  128 Jan 17 21:12 tri  => ""
+drwxrwxr-x. 3 bill bill 4096 Jan 17 21:12 vendor
 
 ./app:
 total 24
-drwxrwxr-x. 5 bill bill 4096 Jan  8 09:34 assets
-drwxrwxr-x. 4 bill bill 4096 Jan 13 10:31 controllers
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:37 helpers
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:34 mailers
-drwxrwxr-x. 3 bill bill 4096 Jan  8 09:34 models
-drwxrwxr-x. 4 bill bill 4096 Jan  8 09:34 views
+drwxrwxr-x. 5 bill bill 4096 Jan 17 21:12 assets
+drwxrwxr-x. 4 bill bill 4096 Jan 17 21:12 controllers
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 helpers
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 mailers
+drwxrwxr-x. 3 bill bill 4096 Jan 17 21:12 models
+drwxrwxr-x. 4 bill bill 4096 Jan 17 21:12 views
 
 ./app/assets:
 total 12
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:34 images
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:34 javascripts
-drwxrwxr-x. 2 bill bill 4096 Jan 11 16:14 stylesheets
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 images
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 javascripts
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 stylesheets
 
 ./app/assets/images:
 total 0
 
 ./app/assets/javascripts:
 total 8
--rw-rw-r--. 1 bill bill 661 Jan  8 09:34 application.js
--rw-rw-r--. 1 bill bill 211 Jan  8 09:34 pages.coffee
+-rw-rw-r--. 1 bill bill 661 Jan 17 21:12 application.js
+-rw-rw-r--. 1 bill bill 211 Jan 17 21:12 pages.coffee
 
 ./app/assets/stylesheets:
 total 16
--rw-rw-r--. 1 bill bill  686 Jan  8 09:34 application.css
--rw-rw-r--. 1 bill bill 1110 Jan 11 16:14 custom.css
--rw-rw-r--. 1 bill bill  974 Jan 11 14:14 custom.css.~1~
--rw-rw-r--. 1 bill bill  176 Jan  8 09:34 pages.scss
+-rw-rw-r--. 1 bill bill  686 Jan 17 21:12 application.css
+-rw-rw-r--. 1 bill bill 1110 Jan 17 21:12 custom.css
+-rw-rw-r--. 1 bill bill  974 Jan 17 21:12 custom.css.~1~
+-rw-rw-r--. 1 bill bill  176 Jan 17 21:12 pages.scss
 
 ./app/controllers:
-total 16
-drwxrwxr-x. 3 bill bill 4096 Jan 13 09:54 app
--rw-rw-r--. 1 bill bill  204 Jan  8 09:34 application_controller.rb
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:34 concerns
--rw-rw-r--. 1 bill bill  199 Jan 13 09:53 pages_controller.rb
+total 20
+drwxrwxr-x. 3 bill bill 4096 Jan 17 21:12 app
+-rw-rw-r--. 1 bill bill  204 Jan 17 21:12 application_controller.rb
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 concerns
+-rw-rw-r--. 1 bill bill  207 Jan 17 21:12 #pages_controller.rb#
+-rw-rw-r--. 1 bill bill  199 Jan 17 21:12 pages_controller.rb
 
 ./app/controllers/app:
 total 4
-drwxrwxr-x. 3 bill bill 4096 Jan 13 09:54 views
+drwxrwxr-x. 3 bill bill 4096 Jan 17 21:12 views
 
 ./app/controllers/app/views:
 total 4
-drwxrwxr-x. 2 bill bill 4096 Jan 13 09:54 pages
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 pages
 
 ./app/controllers/app/views/pages:
 total 4
--rw-rw-r--. 1 bill bill 250 Jan 13 09:54 help.html.erb
+-rw-rw-r--. 1 bill bill 250 Jan 17 21:12 help.html.erb
 
 ./app/controllers/concerns:
 total 0
 
 ./app/helpers:
 total 8
--rw-rw-r--. 1 bill bill 229 Jan  8 09:34 application_helper.rb
--rw-rw-r--. 1 bill bill  23 Jan  8 09:34 pages_helper.rb
+-rw-rw-r--. 1 bill bill 229 Jan 17 21:12 application_helper.rb
+-rw-rw-r--. 1 bill bill  23 Jan 17 21:12 pages_helper.rb
 
 ./app/mailers:
 total 0
 
 ./app/models:
 total 4
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:34 concerns
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 concerns
 
 ./app/models/concerns:
 total 0
 
 ./app/views:
 total 8
-drwxrwxr-x. 2 bill bill 4096 Jan 13 14:49 layouts
-drwxrwxr-x. 2 bill bill 4096 Jan 12 16:28 pages
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 layouts
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:47 pages
 
 ./app/views/layouts:
 total 24
--rw-rw-r--. 1 bill bill 349 Jan 13 13:56 application.html.erb
--rw-rw-r--. 1 bill bill 459 Jan  8 10:43 application.html.erb.0
--rw-rw-r--. 1 bill bill 852 Jan 11 11:00 application.html.erb.1
--rw-rw-r--. 1 bill bill 294 Jan 13 11:31 _footer.html.erb
--rw-rw-r--. 1 bill bill 292 Jan 13 14:49 _header.html.erb
--rw-rw-r--. 1 bill bill 382 Jan 11 15:21 _stylesheets.html.erb
+-rw-rw-r--. 1 bill bill 349 Jan 17 21:12 application.html.erb
+-rw-rw-r--. 1 bill bill 459 Jan 17 21:12 application.html.erb.0
+-rw-rw-r--. 1 bill bill 852 Jan 17 21:12 application.html.erb.1
+-rw-rw-r--. 1 bill bill 294 Jan 17 21:12 _footer.html.erb
+-rw-rw-r--. 1 bill bill 332 Jan 17 21:12 _header.html.erb
+-rw-rw-r--. 1 bill bill 382 Jan 17 21:12 _stylesheets.html.erb
 
 ./app/views/pages:
 total 16
--rw-rw-r--. 1 bill bill 349 Jan  8 09:34 about.html.erb
--rw-rw-r--. 1 bill bill 231 Jan  8 09:34 contact.html.erb
--rw-rw-r--. 1 bill bill 250 Jan 12 16:28 help.html.erb
--rw-rw-r--. 1 bill bill 217 Jan 11 11:21 home.html.erb
+-rw-rw-r--. 1 bill bill 349 Jan 17 21:12 about.html.erb
+-rw-rw-r--. 1 bill bill 231 Jan 17 21:12 contact.html.erb
+-rw-rw-r--. 1 bill bill 250 Jan 17 21:12 help.html.erb
+-rw-rw-r--. 1 bill bill 217 Jan 17 21:12 home.html.erb
 
 ./bin:
 total 20
--rwxrwxr-x. 1 bill bill 129 Jan  8 09:34 bundle
--rwxrwxr-x. 1 bill bill 268 Jan  8 09:34 rails
--rwxrwxr-x. 1 bill bill 213 Jan  8 09:34 rake
--rwxrwxr-x. 1 bill bill 805 Jan  8 09:34 setup
--rwxrwxr-x. 1 bill bill 463 Jan  8 09:34 spring
+-rwxrwxr-x. 1 bill bill 129 Jan 17 21:12 bundle
+-rwxrwxr-x. 1 bill bill 268 Jan 17 21:12 rails
+-rwxrwxr-x. 1 bill bill 213 Jan 17 21:12 rake
+-rwxrwxr-x. 1 bill bill 805 Jan 17 21:12 setup
+-rwxrwxr-x. 1 bill bill 463 Jan 17 21:12 spring
 
 ./config:
 total 36
--rw-rw-r--. 1 bill bill 1401 Jan  8 09:34 application.rb
--rw-rw-r--. 1 bill bill  132 Jan  8 09:34 boot.rb
--rw-rw-r--. 1 bill bill  552 Jan  8 09:34 database.yml
--rw-rw-r--. 1 bill bill  150 Jan  8 09:34 environment.rb
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:34 environments
-drwxrwxr-x. 2 bill bill 4096 Jan 11 14:57 initializers
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:34 locales
--rw-rw-r--. 1 bill bill 2101 Jan 13 14:46 routes.rb
--rw-rw-r--. 1 bill bill  964 Jan  8 09:34 secrets.yml
+-rw-rw-r--. 1 bill bill 1401 Jan 17 21:12 application.rb
+-rw-rw-r--. 1 bill bill  132 Jan 17 21:12 boot.rb
+-rw-rw-r--. 1 bill bill  552 Jan 17 21:12 database.yml
+-rw-rw-r--. 1 bill bill  150 Jan 17 21:12 environment.rb
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 environments
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 initializers
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 locales
+-rw-rw-r--. 1 bill bill 1921 Jan 17 21:12 routes.rb
+-rw-rw-r--. 1 bill bill  964 Jan 17 21:12 secrets.yml
 
 ./config/environments:
 total 12
--rw-rw-r--. 1 bill bill 1600 Jan  8 09:34 development.rb
--rw-rw-r--. 1 bill bill 3304 Jan  8 09:34 production.rb
--rw-rw-r--. 1 bill bill 1755 Jan  8 09:34 test.rb
+-rw-rw-r--. 1 bill bill 1600 Jan 17 21:12 development.rb
+-rw-rw-r--. 1 bill bill 3304 Jan 17 21:12 production.rb
+-rw-rw-r--. 1 bill bill 1755 Jan 17 21:12 test.rb
 
 ./config/initializers:
 total 32
--rw-rw-r--. 1 bill bill 549 Jan 11 14:57 assets.rb
--rw-rw-r--. 1 bill bill 404 Jan  8 09:34 backtrace_silencers.rb
--rw-rw-r--. 1 bill bill 129 Jan  8 09:34 cookies_serializer.rb
--rw-rw-r--. 1 bill bill 194 Jan  8 09:34 filter_parameter_logging.rb
--rw-rw-r--. 1 bill bill 647 Jan  8 09:34 inflections.rb
--rw-rw-r--. 1 bill bill 156 Jan  8 09:34 mime_types.rb
--rw-rw-r--. 1 bill bill 146 Jan  8 09:34 session_store.rb
--rw-rw-r--. 1 bill bill 517 Jan  8 09:34 wrap_parameters.rb
+-rw-rw-r--. 1 bill bill 549 Jan 17 21:12 assets.rb
+-rw-rw-r--. 1 bill bill 404 Jan 17 21:12 backtrace_silencers.rb
+-rw-rw-r--. 1 bill bill 129 Jan 17 21:12 cookies_serializer.rb
+-rw-rw-r--. 1 bill bill 194 Jan 17 21:12 filter_parameter_logging.rb
+-rw-rw-r--. 1 bill bill 647 Jan 17 21:12 inflections.rb
+-rw-rw-r--. 1 bill bill 156 Jan 17 21:12 mime_types.rb
+-rw-rw-r--. 1 bill bill 146 Jan 17 21:12 session_store.rb
+-rw-rw-r--. 1 bill bill 517 Jan 17 21:12 wrap_parameters.rb
 
 ./config/locales:
 total 4
--rw-rw-r--. 1 bill bill 634 Jan  8 09:34 en.yml
+-rw-rw-r--. 1 bill bill 634 Jan 17 21:12 en.yml
 
 ./db:
 total 12
--rw-r--r--. 1 bill bill    0 Jan 11 11:48 development.sqlite3
--rw-rw-r--. 1 bill bill  789 Jan  8 09:34 schema.rb
--rw-rw-r--. 1 bill bill  343 Jan  8 09:34 seeds.rb
--rw-r--r--. 1 bill bill 3072 Jan 13 14:51 test.sqlite3
+-rw-r--r--. 1 bill bill    0 Jan 17 23:13 development.sqlite3
+-rw-rw-r--. 1 bill bill  789 Jan 17 21:12 schema.rb
+-rw-rw-r--. 1 bill bill  343 Jan 17 21:12 seeds.rb
+-rw-r--r--. 1 bill bill 3072 Jan 17 23:10 test.sqlite3
 
 ./lib:
 total 8
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:34 assets
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:34 tasks
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 assets
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 tasks
 
 ./lib/assets:
 total 0
@@ -166,217 +167,202 @@ total 0
 total 0
 
 ./log:
-total 232
--rw-rw-r--. 1 bill bill 106245 Jan 11 16:15 development.log
--rw-rw-r--. 1 bill bill 124794 Jan 13 14:51 test.log
+total 212
+-rw-rw-r--. 1 bill bill 160852 Jan 17 23:27 development.log
+-rw-rw-r--. 1 bill bill  45568 Jan 17 23:10 test.log
 
 ./public:
 total 24
--rw-rw-r--. 1 bill bill 1564 Jan  8 09:34 404.html
--rw-rw-r--. 1 bill bill 1547 Jan  8 09:34 422.html
--rw-rw-r--. 1 bill bill 1477 Jan  8 09:34 500.html
--rw-rw-r--. 1 bill bill    0 Jan  8 09:34 favicon.ico
-drwxrwxr-x. 2 bill bill 4096 Jan 11 11:46 images
--rw-rw-r--. 1 bill bill  202 Jan  8 09:34 robots.txt
-drwxrwxr-x. 4 bill bill 4096 Jan  8 10:38 stylesheets
+-rw-rw-r--. 1 bill bill 1564 Jan 17 21:12 404.html
+-rw-rw-r--. 1 bill bill 1547 Jan 17 21:12 422.html
+-rw-rw-r--. 1 bill bill 1477 Jan 17 21:12 500.html
+-rw-rw-r--. 1 bill bill    0 Jan 17 21:12 favicon.ico
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 images
+-rw-rw-r--. 1 bill bill  202 Jan 17 21:12 robots.txt
+drwxrwxr-x. 3 bill bill 4096 Jan 17 23:28 stylesheets
 
 ./public/images:
 total 4
--rw-r--r--. 1 bill bill 2149 Nov 11  2010 logo.png
+-rw-rw-r--. 1 bill bill 2149 Jan 17 21:12 logo.png
 
 ./public/stylesheets:
+total 4
+drwxrwxr-x. 4 bill bill 4096 Jan 17 18:38 blueprint
+
+./public/stylesheets/blueprint:
 total 32
--rw-rw-r--. 1 bill bill  1938 Jan  8 09:49 ie.css
-drwxrwxr-x. 6 bill bill  4096 Jan  8 09:49 plugins
--rw-rw-r--. 1 bill bill  1286 Jan  8 09:49 print.css
--rw-rw-r--. 1 bill bill 12336 Jan  8 09:49 screen.css
-drwxrwxr-x. 2 bill bill  4096 Jan  8 09:49 src
+-rw-rw-r--. 1 bill bill  1938 Jan 17 18:38 ie.css
+drwxrwxr-x. 6 bill bill  4096 Jan 17 18:38 plugins
+-rw-rw-r--. 1 bill bill  1286 Jan 17 18:38 print.css
+-rw-rw-r--. 1 bill bill 12336 Jan 17 18:38 screen.css
+drwxrwxr-x. 2 bill bill  4096 Jan 17 18:38 src
 
-./public/stylesheets/plugins:
+./public/stylesheets/blueprint/plugins:
 total 16
-drwxrwxr-x. 3 bill bill 4096 Jan  8 09:49 buttons
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:49 fancy-type
-drwxrwxr-x. 3 bill bill 4096 Jan  8 09:49 link-icons
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:49 rtl
+drwxrwxr-x. 3 bill bill 4096 Jan 17 18:38 buttons
+drwxrwxr-x. 2 bill bill 4096 Jan 17 18:38 fancy-type
+drwxrwxr-x. 3 bill bill 4096 Jan 17 18:38 link-icons
+drwxrwxr-x. 2 bill bill 4096 Jan 17 18:38 rtl
 
-./public/stylesheets/plugins/buttons:
+./public/stylesheets/blueprint/plugins/buttons:
 total 12
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:49 icons
--rw-rw-r--. 1 bill bill  930 Jan  8 09:49 readme.txt
--rw-rw-r--. 1 bill bill 2004 Jan  8 09:49 screen.css
+drwxrwxr-x. 2 bill bill 4096 Jan 17 18:38 icons
+-rw-rw-r--. 1 bill bill  930 Jan 17 18:38 readme.txt
+-rw-rw-r--. 1 bill bill 2004 Jan 17 18:38 screen.css
 
-./public/stylesheets/plugins/buttons/icons:
+./public/stylesheets/blueprint/plugins/buttons/icons:
 total 12
--rwxrwxr-x. 1 bill bill 655 Jan  8 09:49 cross.png
--rwxrwxr-x. 1 bill bill 455 Jan  8 09:49 key.png
--rwxrwxr-x. 1 bill bill 537 Jan  8 09:49 tick.png
+-rwxrwxr-x. 1 bill bill 655 Jan 17 18:38 cross.png
+-rwxrwxr-x. 1 bill bill 455 Jan 17 18:38 key.png
+-rwxrwxr-x. 1 bill bill 537 Jan 17 18:38 tick.png
 
-./public/stylesheets/plugins/fancy-type:
+./public/stylesheets/blueprint/plugins/fancy-type:
 total 8
--rw-rw-r--. 1 bill bill  340 Jan  8 09:49 readme.txt
--rw-rw-r--. 1 bill bill 2244 Jan  8 09:49 screen.css
+-rw-rw-r--. 1 bill bill  340 Jan 17 18:38 readme.txt
+-rw-rw-r--. 1 bill bill 2244 Jan 17 18:38 screen.css
 
-./public/stylesheets/plugins/link-icons:
+./public/stylesheets/blueprint/plugins/link-icons:
 total 12
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:49 icons
--rw-rw-r--. 1 bill bill  449 Jan  8 09:49 readme.txt
--rw-rw-r--. 1 bill bill 1458 Jan  8 09:49 screen.css
+drwxrwxr-x. 2 bill bill 4096 Jan 17 18:38 icons
+-rw-rw-r--. 1 bill bill  449 Jan 17 18:38 readme.txt
+-rw-rw-r--. 1 bill bill 1458 Jan 17 18:38 screen.css
 
-./public/stylesheets/plugins/link-icons/icons:
+./public/stylesheets/blueprint/plugins/link-icons/icons:
 total 124
--rw-rw-r--. 1 bill bill   777 Jan  8 09:49 doc.png
--rw-rw-r--. 1 bill bill   641 Jan  8 09:49 email.png
--rw-rw-r--. 1 bill bill 46848 Jan  8 09:49 external.png
--rw-rw-r--. 1 bill bill   691 Jan  8 09:49 feed.png
--rw-rw-r--. 1 bill bill   741 Jan  8 09:49 im.png
--rw-rw-r--. 1 bill bill   749 Jan  8 09:49 lock.png
--rw-rw-r--. 1 bill bill   591 Jan  8 09:49 pdf.png
--rw-rw-r--. 1 bill bill 46990 Jan  8 09:49 visited.png
--rw-rw-r--. 1 bill bill   663 Jan  8 09:49 xls.png
+-rw-rw-r--. 1 bill bill   777 Jan 17 18:38 doc.png
+-rw-rw-r--. 1 bill bill   641 Jan 17 18:38 email.png
+-rw-rw-r--. 1 bill bill 46848 Jan 17 18:38 external.png
+-rw-rw-r--. 1 bill bill   691 Jan 17 18:38 feed.png
+-rw-rw-r--. 1 bill bill   741 Jan 17 18:38 im.png
+-rw-rw-r--. 1 bill bill   749 Jan 17 18:38 lock.png
+-rw-rw-r--. 1 bill bill   591 Jan 17 18:38 pdf.png
+-rw-rw-r--. 1 bill bill 46990 Jan 17 18:38 visited.png
+-rw-rw-r--. 1 bill bill   663 Jan 17 18:38 xls.png
 
-./public/stylesheets/plugins/rtl:
+./public/stylesheets/blueprint/plugins/rtl:
 total 12
--rw-rw-r--. 1 bill bill  327 Jan  8 09:49 readme.txt
--rw-rw-r--. 1 bill bill 4839 Jan  8 09:49 screen.css
+-rw-rw-r--. 1 bill bill  327 Jan 17 18:38 readme.txt
+-rw-rw-r--. 1 bill bill 4839 Jan 17 18:38 screen.css
 
-./public/stylesheets/src:
+./public/stylesheets/blueprint/src:
 total 36
--rw-rw-r--. 1 bill bill 2686 Jan  8 09:49 forms.css
--rwxrwxr-x. 1 bill bill 9518 Jan  8 09:49 grid.css
--rw-rw-r--. 1 bill bill  104 Jan  8 09:49 grid.png
--rw-rw-r--. 1 bill bill 2669 Jan  8 09:49 ie.css
--rwxrwxr-x. 1 bill bill 2157 Jan  8 09:49 print.css
--rwxrwxr-x. 1 bill bill 1577 Jan  8 09:49 reset.css
--rw-rw-r--. 1 bill bill 3638 Jan  8 09:49 typography.css
+-rw-rw-r--. 1 bill bill 2686 Jan 17 18:38 forms.css
+-rwxrwxr-x. 1 bill bill 9518 Jan 17 18:38 grid.css
+-rw-rw-r--. 1 bill bill  104 Jan 17 18:38 grid.png
+-rw-rw-r--. 1 bill bill 2669 Jan 17 18:38 ie.css
+-rwxrwxr-x. 1 bill bill 2157 Jan 17 18:38 print.css
+-rwxrwxr-x. 1 bill bill 1577 Jan 17 18:38 reset.css
+-rw-rw-r--. 1 bill bill 3638 Jan 17 18:38 typography.css
 
 ./spec:
 total 28
-drwxrwxr-x. 2 bill bill 4096 Jan 13 12:20 controllers
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:34 helpers
--rw-rw-r--. 1 bill bill 2727 Jan 13 14:44 rails_helper.rb
-drwxrwxr-x. 2 bill bill 4096 Jan 12 16:17 requests
--rw-rw-r--. 1 bill bill 6269 Jan 13 14:32 spec_helper.rb
-drwxrwxr-x. 3 bill bill 4096 Jan  8 09:34 views
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:42 controllers
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 helpers
+-rw-rw-r--. 1 bill bill 2727 Jan 17 21:12 rails_helper.rb
+drwxrwxr-x. 2 bill bill 4096 Jan 17 23:10 requests
+-rw-rw-r--. 1 bill bill 6269 Jan 17 21:12 spec_helper.rb
+drwxrwxr-x. 3 bill bill 4096 Jan 17 21:12 views
 
 ./spec/controllers:
 total 4
--rw-rw-r--. 1 bill bill 1374 Jan 13 12:20 pages_controller_spec.rb
+-rw-rw-r--. 1 bill bill 1266 Jan 17 21:42 pages_controller_spec.rb
 
 ./spec/helpers:
 total 4
--rw-rw-r--. 1 bill bill 430 Jan  8 09:34 pages_helper_spec.rb
+-rw-rw-r--. 1 bill bill 430 Jan 17 21:12 pages_helper_spec.rb
 
 ./spec/requests:
 total 4
--rw-rw-r--. 1 bill bill 1151 Jan 12 16:17 layout_links_spec.rb
+-rw-rw-r--. 1 bill bill 847 Jan 17 23:10 layout_links_spec.rb
 
 ./spec/views:
 total 4
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:34 pages
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 pages
 
 ./spec/views/pages:
 total 8
--rw-rw-r--. 1 bill bill 141 Jan  8 09:34 contact.html.erb_spec.rb
--rw-rw-r--. 1 bill bill 138 Jan  8 09:34 home.html.erb_spec.rb
+-rw-rw-r--. 1 bill bill 141 Jan 17 21:12 contact.html.erb_spec.rb
+-rw-rw-r--. 1 bill bill 138 Jan 17 21:12 home.html.erb_spec.rb
 
 ./tmp:
 total 16
-drwxrwxr-x. 3 bill bill 4096 Jan  8 09:36 cache
-drwxrwxr-x. 2 bill bill 4096 Jan 11 16:48 pids
-drwxrwxr-x. 2 bill bill 4096 Jan  8 11:09 sessions
-drwxrwxr-x. 2 bill bill 4096 Jan  8 11:09 sockets
+drwxrwxr-x. 3 bill bill 4096 Jan 17 21:37 cache
+drwxrwxr-x. 2 bill bill 4096 Jan 17 23:11 pids
+drwxrwxr-x. 2 bill bill 4096 Jan 17 23:11 sessions
+drwxrwxr-x. 2 bill bill 4096 Jan 17 23:11 sockets
 
 ./tmp/cache:
 total 4
-drwxrwxr-x. 3 bill bill 4096 Jan  8 09:36 sprockets
+drwxrwxr-x. 3 bill bill 4096 Jan 17 21:37 sprockets
 
 ./tmp/cache/sprockets:
-total 12
-drwxrwxr-x. 2 bill bill 12288 Jan 12 16:19 v3.0
+total 4
+drwxrwxr-x. 2 bill bill 4096 Jan 17 23:13 v3.0
 
 ./tmp/cache/sprockets/v3.0:
-total 588
--rw-rw-r--. 1 bill bill   144 Jan 13 14:51 0hvT9VwOtVFyN9crXFBSUh8Wt2l3aF79Q5tv-Co4mw0.cache
--rw-rw-r--. 1 bill bill    36 Jan 11 14:58 0rEn-Xf3mDh_NW27YDDfCfyhqCkeFKSV5kDITKdP-LY.cache
--rw-rw-r--. 1 bill bill   259 Jan 11 14:58 1Z2yKF_c3jR73cpcuuNj2G9spsEam9CWQe0NV5ItnbU.cache
--rw-rw-r--. 1 bill bill    36 Jan 13 14:51 2H06gDTkFGv_cL_R1_38ZVlkDxy2uYhukgGd-WXYXJg.cache
--rw-rw-r--. 1 bill bill  1938 Jan 12 16:19 2PmCM5E-1SFl2HCbkkS7YaVgn4HewtNgyMaL1KJ_0ds.cache
--rw-rw-r--. 1 bill bill   930 Jan 11 14:20 2U8NBattUg_lCoYdZF5QbGLB5Plic0dgz-0F_wlExpo.cache
--rw-rw-r--. 1 bill bill   145 Jan 11 14:20 36f0S4i7LRwhDjF9feTdH61GB8O8wCeLkTFCJaEM8_g.cache
--rw-rw-r--. 1 bill bill   130 Jan 11 14:58 3bmlAVhi8TcycIwMuKvXIkaSVM7Rl8Idk-lzE5m-60M.cache
--rw-rw-r--. 1 bill bill  1109 Jan  8 09:36 46gOtrZg_LPOHCXcjGgxh35P1ceUOAjWAUlvHmah3qs.cache
--rw-rw-r--. 1 bill bill  1365 Jan 13 14:51 5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache
--rw-rw-r--. 1 bill bill    36 Jan 11 10:27 8GmWkddb8NjL_ihXpQu2Z5fiBm8RzBtwjj-8qkYxe5M.cache
--rw-rw-r--. 1 bill bill    36 Jan 13 14:51 8GpoTcdhdYvyh0XTycUSejXpP6Gp-AMFYkdTVKUKn_s.cache
--rw-rw-r--. 1 bill bill   130 Jan 11 10:27 8riqON4AWTmo_tK2zvIPzxGcuDeFy6u3j6oy6cyNdts.cache
--rw-rw-r--. 1 bill bill   144 Jan 11 10:27 9gqVIAyzQo7co_SCRkLKSMU8V08znk1KEE1Ire0l9B8.cache
--rw-rw-r--. 1 bill bill   141 Jan 11 14:58 9SL4EmGMG_rBACRYorRwJJnMXDMIowE5VodpqF_93jA.cache
--rw-rw-r--. 1 bill bill  1356 Jan 11 10:27 A9e-P-wBgaftmXWqMdIB2tGrmHyUEiS7kwrcbTZvHcs.cache
--rw-rw-r--. 1 bill bill   125 Jan 11 14:58 aD4xZ6_cpfOkFPcgw-UgoQSmMHQke04PyjDozRfiSRE.cache
--rw-rw-r--. 1 bill bill  7063 Jan 11 14:20 APIrJfXoY0q_gCsIA9hpQ0VPjyT802SSqMbEB2603uY.cache
--rw-rw-r--. 1 bill bill   431 Jan 11 14:20 APY89OAPJx9A3D3xcCoktvEvQUs7NcWChYXnjjjPzz0.cache
--rw-rw-r--. 1 bill bill   279 Jan 11 14:20 ar-vCJ5uZ2qybMdg7cYus_eI2iV0bNwrs2oE4mDJGm4.cache
--rw-rw-r--. 1 bill bill 96962 Jan 11 10:27 AWndc4L5x65Z6ERKYxpyti3Lqc6t8H6DrlQHBTbYyMo.cache
--rw-rw-r--. 1 bill bill   156 Jan 11 14:20 BvbvNTd3P3VkDlOeT-MEdoIWGg-Y_lY5FdoHcZ0bwAA.cache
--rw-rw-r--. 1 bill bill  2018 Jan 11 14:58 BYlXNg2eKqv7dP7WuB0kkHAEBAmCpl5lVtRhWf58yI8.cache
--rw-rw-r--. 1 bill bill   283 Jan 11 14:20 DA51I-YSPDvBgOo5r2dRe0ILKkY_Qo2Cj0XoBBX--iQ.cache
--rw-rw-r--. 1 bill bill    36 Jan 13 14:51 dnbP3dS9P_Zs4cIHYI2QexEV-Ueg2wrzptuX9WluIIw.cache
--rw-rw-r--. 1 bill bill   140 Jan 11 14:58 E3sn-Ah-SbBlB1tBbLKttOvPhSSASifKp1bI5pRL368.cache
--rw-rw-r--. 1 bill bill    41 Jan  8 09:36 ee9ZqYM3D8GORlAyhQhVVtyNcEArBAXuuAcPhnfTNT8.cache
--rw-rw-r--. 1 bill bill   141 Jan 11 16:14 eTTOp90uaZ5uGu1yzya_kdfjxgniLQ4fFDL3svM0d3Y.cache
--rw-rw-r--. 1 bill bill    36 Jan 13 14:51 fQdN9Oplk4eJ_MzWxElTHCh9YbkMW_sCi05DINrPALg.cache
--rw-rw-r--. 1 bill bill 85251 Jan 11 14:20 g8MWHtS9g5UqdasUrajlt4QO7verGX9ljxCFn-3TwN8.cache
--rw-rw-r--. 1 bill bill  1893 Jan 11 14:20 G-gfBCORL2Oa7P3G11s7ejatK5K2qdpZ1ELoOHe6I9I.cache
--rw-rw-r--. 1 bill bill  1120 Jan 11 14:20 gQzm5spXiIcxMRn1JZt307-PSkIQz8Dh5PuSHOwXGUk.cache
--rw-rw-r--. 1 bill bill   259 Jan 11 16:15 hBbyf8ajAY7V__8fbHu--ZAdFgjxTBICOG-C0M8-Oyo.cache
--rw-rw-r--. 1 bill bill  1116 Jan  8 09:36 Ii6xXSWhNvoA2aDPYD7H3MBITZJSyiYPxn9qSvwq8mg.cache
--rw-rw-r--. 1 bill bill   836 Jan 12 16:19 _ijodv1heedi5CeTljdhfmTH_mxsyNivro8UOSHrJNY.cache
--rw-rw-r--. 1 bill bill    36 Jan 13 14:51 iqvW4EDzaiI86jDr9AROxafZxcwTsc4DcPD8Op2EuIo.cache
--rw-rw-r--. 1 bill bill   207 Jan 12 16:19 iWhsQEZzmqo559tEypkxRJaOcaOjU1fDPyvheH1wtHk.cache
--rw-rw-r--. 1 bill bill    36 Jan 13 14:51 iX-vzd0mqjoAktiHLb2w0uLOO2MtyEnxac1wCx3Nlh0.cache
--rw-rw-r--. 1 bill bill   244 Jan 13 14:51 j5zgJYPeNzs5xykrhV0RY4xMaLyVtOUsdLkqb9TDbvQ.cache
--rw-rw-r--. 1 bill bill   216 Jan 11 14:20 JChHVbwIyZdepuvXF89OE3R5zfB4Qeqk-8c2tOMad7M.cache
--rw-rw-r--. 1 bill bill   125 Jan 13 14:51 jQfsNjdiVaSbXo_-1Og9hsgXusm-YrihttJCinSjeqk.cache
--rw-rw-r--. 1 bill bill  1762 Jan  8 09:36 JvGt1zUBPBWOAgpLDEGyKEhMrB_Q9wIQxmuH0ZGqcNE.cache
--rw-rw-r--. 1 bill bill   470 Jan 13 14:51 kSkCWaAJCcTgZ_AhrRCjZhNtkE12cubiq70uNtditqk.cache
--rw-rw-r--. 1 bill bill  1878 Jan 13 14:51 KWdK5Ev1mE_SuSQHnUQFK7KXDJ8yfFOl6bUxLyFKUkc.cache
--rw-rw-r--. 1 bill bill    36 Jan 13 14:51 lxLUlrOzud9-BBc--1QZ_3asmMOphP3xZl6kLqMHdIk.cache
--rw-rw-r--. 1 bill bill   140 Jan 12 16:19 lZUWTtIZHduqwjX8WZN6x96TC1Ku3Y1bLeFuY-tL9t8.cache
--rw-rw-r--. 1 bill bill   193 Jan 11 14:58 m6iNDr6IjV2fmo56xJUGarSy1719IlQT2v34ZZzoDdM.cache
--rw-rw-r--. 1 bill bill  1981 Jan 11 14:58 nBO9ZXg8E1eAq_g6RB6YlgVFCf38NmIdeS3T5U_5nfc.cache
--rw-rw-r--. 1 bill bill   301 Jan 11 14:20 nCbiuFJiVuGteW4RlEpYNUDj2DDTaoVaq28UiHzWgqo.cache
--rw-rw-r--. 1 bill bill    36 Jan 13 14:51 nCU3iPImQbVPVFNQqnQONJWG7JfvqbSQ3ncRXHViY88.cache
--rw-rw-r--. 1 bill bill  3186 Jan 11 14:58 nohQkbjGdYt-tBJlLHQ7S336mwFLvGIicDXuZU6sDjM.cache
--rw-rw-r--. 1 bill bill    36 Jan 11 14:58 nrgGwKsUeEmURQikW2U1UYWlP46cZtHFDrEcrIbOChA.cache
--rw-rw-r--. 1 bill bill 96960 Jan 13 14:51 Od-q3vaVmjK2LJHuJ3IsBnlpuOXCziZdLIsQON0KrRc.cache
--rw-rw-r--. 1 bill bill   975 Jan 12 16:19 OI6uxGcnsKavdWTtwDAasU3wPx8QXhzBgV0X2n1KjMQ.cache
--rw-rw-r--. 1 bill bill    36 Jan 13 14:51 pLUhsn6kW9bkS98iFTHOnYV-ZIMDOHwrvI8EkGs-4-g.cache
--rw-rw-r--. 1 bill bill    36 Jan 13 14:51 PMFa08aE7j0uqNNjuYuoVlHiglWzZ328JWH-mjee-MU.cache
--rw-rw-r--. 1 bill bill    36 Jan 13 14:51 Pnczmye4CHLWcPyvR6U-zNXyHuG7YkPNYhyR2vZUq54.cache
--rw-rw-r--. 1 bill bill  1893 Jan 12 16:19 pouYnrfDUVm7wCL_9ej2eNsVkBdS1AGE-7zAefW5vdM.cache
--rw-rw-r--. 1 bill bill   140 Jan 12 16:19 q8PfTDXNuFpw7q462jNwNFVwy-bJP72fqnL_yF_Pp0Q.cache
--rw-rw-r--. 1 bill bill  5798 Jan 11 14:20 QAbjx0J7fYpABPrNCfo82m02dbZTXRnlqtzLd4BVYw0.cache
--rw-rw-r--. 1 bill bill   193 Jan 12 16:19 QWG8of09mCaiy97hU7fjRVm4wePxF02S0sXDuu8q3kY.cache
--rw-rw-r--. 1 bill bill  1802 Jan 11 14:58 rJa85ItxaLObNcXY6Ite0F9uGNEfpPiqmeO3pkP8t0E.cache
--rw-rw-r--. 1 bill bill  6478 Jan  8 09:36 SuhtC6f7E2-1SXl4bkRvOKqhzFKTjPvbglVtjbjV6WQ.cache
--rw-rw-r--. 1 bill bill   130 Jan 13 14:51 tGS7Tn0fCBbMW_4hkZiFaHOFRPNc9w9fBlXpY7zvLFg.cache
--rw-rw-r--. 1 bill bill    36 Jan 13 14:51 t-YmklSTdcZVpK_4l_V_-1EwGSh94x8Td6_Magvur4w.cache
--rw-rw-r--. 1 bill bill  2430 Jan 13 14:51 UXqewFjeBRaTKeFspzYMHfSlMpNyAzSOVHx1Rf6-_y8.cache
--rw-rw-r--. 1 bill bill   145 Jan 12 16:19 v3_fZLwAsXxXhjHY4KRMHIc9Q7Gzi53L7nDGHJjU68Q.cache
--rw-rw-r--. 1 bill bill  2154 Jan 11 16:14 Vc-PEyrUgBC6XUdKOwuChi3vD4rlXgDvHMAwcBWJnoA.cache
--rw-rw-r--. 1 bill bill   158 Jan  8 09:36 WCE58ay9Q16xFOHMITzuxyNMc4klZxoO0b99xHrH5S8.cache
--rw-rw-r--. 1 bill bill   244 Jan 11 14:58 wXEJuLpVZ3HZiACcSxHv0mAeWAAFrEf9zJ1pRNGfcuE.cache
--rw-rw-r--. 1 bill bill   158 Jan 11 14:20 XcrkjJEPp3hNtB8F5btRpNA95CDmfb0TEs4V-yt6t4M.cache
--rw-rw-r--. 1 bill bill   212 Jan 11 14:20 xjMLSgEopVuIRRAB2WO5mw4RmD3qqmcqtC0J0QPag78.cache
--rw-rw-r--. 1 bill bill    36 Jan 13 14:51 XtwWR8Zx-Irw6FzKJL_v7JFPMm3zwXEA7A3DRGF6bXA.cache
--rw-rw-r--. 1 bill bill   239 Jan 11 14:20 yLpW_7_mv--d0YbIr5xg2toqjT15wQBe0qKxuJz9mw0.cache
--rw-rw-r--. 1 bill bill   145 Jan  8 09:36 YNPoJdYND5XreqXfe1n2YxL0jzk7PCZ556K-hHcYQ9w.cache
--rw-rw-r--. 1 bill bill    36 Jan 13 14:51 Z7Gtbj3eHCDp3WWJOTGEp31FiqkgWVSqzokSvG1VQoY.cache
--rw-rw-r--. 1 bill bill   218 Jan 11 14:20 zJRybZBPhVDYV1_HcU0vyawOcAGmGOIRaRbb_YqCPx0.cache
--rw-rw-r--. 1 bill bill    36 Jan 13 14:51 Zou-km4OBdWUBMtvSrGogTFFJCeWFKqu_AEE622mFLg.cache
+total 416
+-rw-rw-r--. 1 bill bill   144 Jan 17 23:13 0hvT9VwOtVFyN9crXFBSUh8Wt2l3aF79Q5tv-Co4mw0.cache
+-rw-rw-r--. 1 bill bill  1878 Jan 17 23:10 1gajDyy45ur1MZKqjcHRcNHtlRQ-02sCdTeTNC8ZFuU.cache
+-rw-rw-r--. 1 bill bill  1121 Jan 17 21:37 1mhoUYOQAYP_wzhUdiCiRnsnEwQMXv8H5ZOa_ckKpTM.cache
+-rw-rw-r--. 1 bill bill    36 Jan 17 23:13 4u5QAGvkL1H2Yg-91QRf5BivM4ljma84Ng-5Q9OowE4.cache
+-rw-rw-r--. 1 bill bill   951 Jan 17 23:13 5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache
+-rw-rw-r--. 1 bill bill    36 Jan 17 23:13 9YmJny56IGfKgTdB910FqxMmUo1HFOKd0z0HD8NrnY8.cache
+-rw-rw-r--. 1 bill bill  1893 Jan 17 23:13 A_2ogR4aEKyA_V2cfy1x8Nzbpr_Oqbc78p9GwksXO3I.cache
+-rw-rw-r--. 1 bill bill  1116 Jan 17 21:37 anGLwb-DuCj4BIgP1rtHHCrF_J8TangYXpyMNWJ8u7E.cache
+-rw-rw-r--. 1 bill bill  7064 Jan 17 21:37 APIrJfXoY0q_gCsIA9hpQ0VPjyT802SSqMbEB2603uY.cache
+-rw-rw-r--. 1 bill bill  2408 Jan 17 21:37 APY89OAPJx9A3D3xcCoktvEvQUs7NcWChYXnjjjPzz0.cache
+-rw-rw-r--. 1 bill bill   279 Jan 17 21:37 ar-vCJ5uZ2qybMdg7cYus_eI2iV0bNwrs2oE4mDJGm4.cache
+-rw-rw-r--. 1 bill bill   156 Jan 17 21:37 BvbvNTd3P3VkDlOeT-MEdoIWGg-Y_lY5FdoHcZ0bwAA.cache
+-rw-rw-r--. 1 bill bill   836 Jan 17 23:13 d0eqep8tfKREOWL6orazhPiuZTOANaWNu0Txmw3z1CA.cache
+-rw-rw-r--. 1 bill bill   283 Jan 17 21:37 DA51I-YSPDvBgOo5r2dRe0ILKkY_Qo2Cj0XoBBX--iQ.cache
+-rw-rw-r--. 1 bill bill    41 Jan 17 21:37 ee9ZqYM3D8GORlAyhQhVVtyNcEArBAXuuAcPhnfTNT8.cache
+-rw-rw-r--. 1 bill bill   141 Jan 17 23:13 eTTOp90uaZ5uGu1yzya_kdfjxgniLQ4fFDL3svM0d3Y.cache
+-rw-rw-r--. 1 bill bill    36 Jan 17 23:13 F1tanUoFGvaVCiG9cGx03czVXhUZbwrl2QZNTuEKk_E.cache
+-rw-rw-r--. 1 bill bill    36 Jan 17 23:13 fAFfZ6YuFRLmAavGIQPwshMX_uATJJmhtLqKLiHVHAk.cache
+-rw-rw-r--. 1 bill bill 85254 Jan 17 21:37 g8MWHtS9g5UqdasUrajlt4QO7verGX9ljxCFn-3TwN8.cache
+-rw-rw-r--. 1 bill bill  2154 Jan 17 23:13 gbTpgISUuyG7aIoT4MgFotbZIueCH4uIuWxFtDL3YkU.cache
+-rw-rw-r--. 1 bill bill   259 Jan 17 23:27 hBbyf8ajAY7V__8fbHu--ZAdFgjxTBICOG-C0M8-Oyo.cache
+-rw-rw-r--. 1 bill bill    36 Jan 17 23:13 HQ4TvrbuKMwcJ-0TuHiykIt0BZfhqmdSGyhfZRbyiWY.cache
+-rw-rw-r--. 1 bill bill   930 Jan 17 21:37 h_tkbDKHtxNabntZTlW3-DOl7jdJnVHcoKWUBom2YZQ.cache
+-rw-rw-r--. 1 bill bill    36 Jan 17 23:13 iAjAsIpj_zmWbCgHb5ghLNT8SsvkI3v8IyLAeRGTu7M.cache
+-rw-rw-r--. 1 bill bill   207 Jan 17 23:13 iWhsQEZzmqo559tEypkxRJaOcaOjU1fDPyvheH1wtHk.cache
+-rw-rw-r--. 1 bill bill   475 Jan 17 23:13 j5zgJYPeNzs5xykrhV0RY4xMaLyVtOUsdLkqb9TDbvQ.cache
+-rw-rw-r--. 1 bill bill   216 Jan 17 21:37 JChHVbwIyZdepuvXF89OE3R5zfB4Qeqk-8c2tOMad7M.cache
+-rw-rw-r--. 1 bill bill   125 Jan 17 23:10 jQfsNjdiVaSbXo_-1Og9hsgXusm-YrihttJCinSjeqk.cache
+-rw-rw-r--. 1 bill bill  2596 Jan 17 23:13 kSkCWaAJCcTgZ_AhrRCjZhNtkE12cubiq70uNtditqk.cache
+-rw-rw-r--. 1 bill bill   140 Jan 17 23:13 lZUWTtIZHduqwjX8WZN6x96TC1Ku3Y1bLeFuY-tL9t8.cache
+-rw-rw-r--. 1 bill bill    36 Jan 17 23:13 mlV6_9WECVPXdWAbgwwPD7WHXGlZUc4df6es6oPX_GU.cache
+-rw-rw-r--. 1 bill bill  3322 Jan 17 23:13 MyjQkZTiwGnDyxxu2VCRny6GHpja-3LWE9benlNrbp4.cache
+-rw-rw-r--. 1 bill bill    36 Jan 17 23:13 N3uFcCmOjbagcF5kfYiVqLHvT3oXkd36LDgG4ftIuto.cache
+-rw-rw-r--. 1 bill bill   301 Jan 17 21:37 nCbiuFJiVuGteW4RlEpYNUDj2DDTaoVaq28UiHzWgqo.cache
+-rw-rw-r--. 1 bill bill   352 Jan 17 23:13 OI6uxGcnsKavdWTtwDAasU3wPx8QXhzBgV0X2n1KjMQ.cache
+-rw-rw-r--. 1 bill bill    36 Jan 17 23:13 oJ19QkpU0sRs0yvCi-0xbxLLspq2q8M02YJG-IPLPLI.cache
+-rw-rw-r--. 1 bill bill   140 Jan 17 23:13 q8PfTDXNuFpw7q462jNwNFVwy-bJP72fqnL_yF_Pp0Q.cache
+-rw-rw-r--. 1 bill bill  5798 Jan 17 21:37 QAbjx0J7fYpABPrNCfo82m02dbZTXRnlqtzLd4BVYw0.cache
+-rw-rw-r--. 1 bill bill   130 Jan 17 23:13 -Qpl286B_z20ffDHcR4rPXC3K2iBjV4-DagDWMe85gc.cache
+-rw-rw-r--. 1 bill bill   193 Jan 17 23:27 QWG8of09mCaiy97hU7fjRVm4wePxF02S0sXDuu8q3kY.cache
+-rw-rw-r--. 1 bill bill    36 Jan 17 23:13 RIxLOcpEMeCdxKs0OhInyDSJ-P52XQ9YsoBlZqqqEOQ.cache
+-rw-rw-r--. 1 bill bill  2117 Jan 17 23:13 rjqSQxEEVRgZ2jEVCCatUuezeHYjuUzJDJEgaNVh5Cw.cache
+-rw-rw-r--. 1 bill bill  2430 Jan 17 23:10 rK4sOP6iwcwgnIRPZeNURPxPF_grAXjPwTxH1SVDhts.cache
+-rw-rw-r--. 1 bill bill    36 Jan 17 23:13 ShZouwN32iAeuSSrogijxsnfj98RkcohuLWIeExmz3E.cache
+-rw-rw-r--. 1 bill bill  6478 Jan 17 21:37 SuhtC6f7E2-1SXl4bkRvOKqhzFKTjPvbglVtjbjV6WQ.cache
+-rw-rw-r--. 1 bill bill   130 Jan 17 23:10 tGS7Tn0fCBbMW_4hkZiFaHOFRPNc9w9fBlXpY7zvLFg.cache
+-rw-rw-r--. 1 bill bill   125 Jan 17 23:13 uyfqO3if-blw887fKcigpH0zL2Wlbml35UuI7Mvr66I.cache
+-rw-rw-r--. 1 bill bill  1938 Jan 17 23:13 -UZYN0Su9nNYVhbWtvxxtZICYppCNP6ne0B6Hc7QSc4.cache
+-rw-rw-r--. 1 bill bill   145 Jan 17 23:13 v3_fZLwAsXxXhjHY4KRMHIc9Q7Gzi53L7nDGHJjU68Q.cache
+-rw-rw-r--. 1 bill bill    36 Jan 17 23:13 V6arUEyRZ54SZ12MPgpIE4hUhQCM6IsyCCzfmUHEmuA.cache
+-rw-rw-r--. 1 bill bill    36 Jan 17 23:13 vRZsicb0ApgeS0FTwYMjWitmBhLDJCVxK4Ia3bD6ylk.cache
+-rw-rw-r--. 1 bill bill 96964 Jan 17 23:13 wNcxAh3ExsI4bRmUgduMIxABDmSFbz1kWcuX3j2-1uo.cache
+-rw-rw-r--. 1 bill bill    36 Jan 17 23:13 x9p-Zlo-NrdReW1-sWuZ2Es0PxZ7KNhxjCe8dgLUmOY.cache
+-rw-rw-r--. 1 bill bill   158 Jan 17 21:37 XcrkjJEPp3hNtB8F5btRpNA95CDmfb0TEs4V-yt6t4M.cache
+-rw-rw-r--. 1 bill bill   212 Jan 17 21:37 xjMLSgEopVuIRRAB2WO5mw4RmD3qqmcqtC0J0QPag78.cache
+-rw-rw-r--. 1 bill bill   239 Jan 17 21:37 yLpW_7_mv--d0YbIr5xg2toqjT15wQBe0qKxuJz9mw0.cache
+-rw-rw-r--. 1 bill bill    36 Jan 17 23:13 Z7YykUTrFryhxd2UyryfCkg-UupuVR8G4pNK7pOAqwo.cache
+-rw-rw-r--. 1 bill bill   218 Jan 17 21:37 zJRybZBPhVDYV1_HcU0vyawOcAGmGOIRaRbb_YqCPx0.cache
 
 ./tmp/pids:
-total 0
+total 4
+-rw-rw-r--. 1 bill bill 4 Jan 17 23:11 server.pid
 
 ./tmp/sessions:
 total 0
@@ -386,12 +372,12 @@ total 0
 
 ./vendor:
 total 4
-drwxrwxr-x. 4 bill bill 4096 Jan  8 09:34 assets
+drwxrwxr-x. 4 bill bill 4096 Jan 17 21:12 assets
 
 ./vendor/assets:
 total 8
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:34 javascripts
-drwxrwxr-x. 2 bill bill 4096 Jan  8 09:34 stylesheets
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 javascripts
+drwxrwxr-x. 2 bill bill 4096 Jan 17 21:12 stylesheets
 
 ./vendor/assets/javascripts:
 total 0
