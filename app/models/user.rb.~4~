@@ -9,8 +9,6 @@
 #  updated_at :datetime         not null
 #
 
-class UsersController < ApplicationController
-  def new
-	@title = "Sign up"
-  end
+class User < ActiveRecord::Base
+  attr_accessible :name, :email
 end
