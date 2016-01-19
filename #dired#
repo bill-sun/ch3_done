@@ -7,6 +7,7 @@
   drwxrwxr-x. 3 bill bill 4096 Jan 18 14:34 db
   -rw-rw-r--. 1 bill bill    0 Jan 18 15:23 dired
   -rw-rw-r--. 1 bill bill 1909 Jan 18 14:58 Gemfile
+  -rw-rw-r--. 1 bill bill 5218 Jan 18 14:59 Gemfile.lock
   drwxrwxr-x. 4 bill bill 4096 Jan 18 10:21 lib
   drwxrwxr-x. 2 bill bill 4096 Jan 18 14:21 log
   drwxrwxr-x. 4 bill bill 4096 Jan 18 11:40 public

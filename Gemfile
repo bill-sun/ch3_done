@@ -27,7 +27,9 @@ end
 
     group :development, :test do
       gem 'capybara'
-    end    
+    end
+
+    gem 'protected_attributes'
     
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
