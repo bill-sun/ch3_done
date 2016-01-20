@@ -13,6 +13,8 @@ end
 
 	group :development, :test do
 	  gem 'rspec-rails', '~> 3.0'
+      gem 'annotate', github: 'ctran/annotate_models'
+      # gem 'annotate'
 	end
 
 	group :test do
@@ -25,7 +27,9 @@ end
 
     group :development, :test do
       gem 'capybara'
-    end    
+    end
+
+    gem 'protected_attributes'
     
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
