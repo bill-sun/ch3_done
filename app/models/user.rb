@@ -12,5 +12,8 @@
 class User < ActiveRecord::Base
   attr_accessible :name, :email
 
-  validates(:name, :presence => true)
+  # 6.2.1 Validating Presence
+  validates :name, :presence => true 
+  # validates(:name, :presence => true) # the two forms are equivient
+  validates :email, :presence => true
 end
