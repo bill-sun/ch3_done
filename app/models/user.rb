@@ -24,6 +24,7 @@ class User < ActiveRecord::Base
   # validates(:name, :presence => true) # the two forms are equivient
   validates :email, :presence             =>   true, # 6.2.1 Validating Presence
                     :format               =>   { :with => email_regex }, # 6.2.3 Format Validation
-				    :uniqueness => true # 6.2.4 Uniqueness Validation
+		            #		    :uniqueness => true # 6.2.4 Uniqueness Validation
+                    :uniqueness => { :case_sensitive => false }
   
 end
