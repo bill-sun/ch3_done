@@ -31,9 +31,16 @@ RSpec.describe User, type: :model do
   # validate the presence of email addresses(6.2.1)
   it "should require an email address" do
     no_email_user = User.new(@attr.merge(:email => ""))
-    no_email_user.should_not be_valid
+    no_email_user.should_not be_valid # equivalent with expect(actual).to_not be_valid
   end
-  
+
+  # 6.2.2 Length Validation
+  it "should reject names that are too long" do
+    long_name = "a" * 51
+    long_name_user = User.new(@attr.merge(:name => long_name))
+    # long_name_user.should_not be_valid #obsoleted
+    expect(long_name_user).to_not be_valid
+  end
   
   it "should require a name"
 end
