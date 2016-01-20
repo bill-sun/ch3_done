@@ -41,6 +41,23 @@ RSpec.describe User, type: :model do
     # long_name_user.should_not be_valid #obsoleted
     expect(long_name_user).to_not be_valid
   end
+
+  # 6.2.3 Format Validation
+  it "should accept valid email addresses" do
+    addresses = %w[user@foo.com THE_USER@foo.bar.org first.last@foo.jp]
+    addresses.each do |address|
+      valid_email_user = User.new(@attr.merge(:email => address))
+      expect(valid_email_user).to be_valid
+    end
+  end
+
+  it "should reject invalid email addresses" do
+    addresses = %w[user@foo,com user_at_foo.org example.user@foo.]
+    addresses.each do |address|
+      invalid_email_user = User.new(@attr.merge(:email => address))
+      expect(invalid_email_user).to_not be_valid
+    end
+  end
   
   it "should require a name"
 end
