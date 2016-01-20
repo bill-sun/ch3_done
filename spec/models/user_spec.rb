@@ -22,7 +22,7 @@ RSpec.describe User, type: :model do
   end
 
   # validate the presence of name(6.2.1)
-   it "should require a name" do
+  it "should require a name" do
     no_name_user = User.new(@attr.merge(:name => ""))
     no_name_user.should_not be_valid
     # no_name_user.valid?.should_not == true # this is equivilent with should_nt be_valid
@@ -58,6 +58,14 @@ RSpec.describe User, type: :model do
       expect(invalid_email_user).to_not be_valid
     end
   end
-  
+
+  # 6.2.4 Uniqueness Validation
+  it "should reject duplicate email addresses" do
+    # Put a user with given email address into the database.
+    User.create!(@attr)
+    user_with_duplicate_email = User.new(@attr)
+    user_with_duplicate_email.should_not be_valid
+  end
+
   it "should require a name"
 end
