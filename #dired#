@@ -1,4 +1,4 @@
-  /home/bill/rails_app/home/ch3_done:
+  /home/bill/Rails.Projects/ch3_done:
   total 64
   drwxrwxr-x. 8 bill bill 4096 Jan 18 10:21 app
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 bin
@@ -17,7 +17,7 @@
   -rw-rw-r--. 1 bill bill  128 Jan 18 10:21 tri  => ""
   drwxrwxr-x. 3 bill bill 4096 Jan 18 10:21 vendor
 
-  /home/bill/rails_app/home/ch3_done/app:
+  /home/bill/Rails.Projects/ch3_done/app:
   total 24
   drwxrwxr-x. 5 bill bill 4096 Jan 18 10:21 assets
   drwxrwxr-x. 4 bill bill 4096 Jan 18 10:59 controllers
@@ -26,30 +26,29 @@
   drwxrwxr-x. 3 bill bill 4096 Jan 18 10:21 models
   drwxrwxr-x. 5 bill bill 4096 Jan 18 10:59 views
 
-  /home/bill/rails_app/home/ch3_done/app/assets:
+  /home/bill/Rails.Projects/ch3_done/app/assets:
   total 12
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 images
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:59 javascripts
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:59 stylesheets
 
-  /home/bill/rails_app/home/ch3_done/app/assets/images:
+  /home/bill/Rails.Projects/ch3_done/app/assets/images:
   total 0
 
-  /home/bill/rails_app/home/ch3_done/app/assets/javascripts:
+  /home/bill/Rails.Projects/ch3_done/app/assets/javascripts:
   total 12
   -rw-rw-r--. 1 bill bill 661 Jan 18 10:21 application.js
   -rw-rw-r--. 1 bill bill 211 Jan 18 10:21 pages.coffee
   -rw-rw-r--. 1 bill bill 211 Jan 18 10:59 users.coffee
 
-  /home/bill/rails_app/home/ch3_done/app/assets/stylesheets:
+  /home/bill/Rails.Projects/ch3_done/app/assets/stylesheets:
   total 20
   -rw-rw-r--. 1 bill bill  686 Jan 18 10:21 application.css
   -rw-rw-r--. 1 bill bill 1110 Jan 18 10:21 custom.css
-  -rw-rw-r--. 1 bill bill  974 Jan 18 10:21 custom.css.~1~
   -rw-rw-r--. 1 bill bill  176 Jan 18 10:21 pages.scss
   -rw-rw-r--. 1 bill bill  176 Jan 18 10:59 users.scss
 
-  /home/bill/rails_app/home/ch3_done/app/controllers:
+  /home/bill/Rails.Projects/ch3_done/app/controllers:
   total 24
   drwxrwxr-x. 3 bill bill 4096 Jan 18 10:21 app
   -rw-rw-r--. 1 bill bill  204 Jan 18 10:21 application_controller.rb
@@ -58,64 +57,64 @@
   -rw-rw-r--. 1 bill bill  199 Jan 18 10:21 pages_controller.rb
   -rw-rw-r--. 1 bill bill   66 Jan 18 10:59 users_controller.rb
 
-  /home/bill/rails_app/home/ch3_done/app/controllers/app:
+  /home/bill/Rails.Projects/ch3_done/app/controllers/app:
   total 4
   drwxrwxr-x. 3 bill bill 4096 Jan 18 10:21 views
 
-  /home/bill/rails_app/home/ch3_done/app/controllers/app/views:
+  /home/bill/Rails.Projects/ch3_done/app/controllers/app/views:
   total 4
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 pages
 
-  /home/bill/rails_app/home/ch3_done/app/controllers/app/views/pages:
+  /home/bill/Rails.Projects/ch3_done/app/controllers/app/views/pages:
   total 4
-* -rw-rw-r--. 1 bill bill 250 Jan 18 10:21 help.html.erb
+  -rw-rw-r--. 1 bill bill 250 Jan 18 10:21 help.html.erb
 
-  /home/bill/rails_app/home/ch3_done/app/controllers/concerns:
+  /home/bill/Rails.Projects/ch3_done/app/controllers/concerns:
   total 0
 
-  /home/bill/rails_app/home/ch3_done/app/helpers:
+  /home/bill/Rails.Projects/ch3_done/app/helpers:
   total 12
   -rw-rw-r--. 1 bill bill 229 Jan 18 10:21 application_helper.rb
   -rw-rw-r--. 1 bill bill  23 Jan 18 10:21 pages_helper.rb
   -rw-rw-r--. 1 bill bill  23 Jan 18 10:59 users_helper.rb
 
-  /home/bill/rails_app/home/ch3_done/app/mailers:
+  /home/bill/Rails.Projects/ch3_done/app/mailers:
   total 0
 
-  /home/bill/rails_app/home/ch3_done/app/models:
+  /home/bill/Rails.Projects/ch3_done/app/models:
   total 4
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 concerns
 
-  /home/bill/rails_app/home/ch3_done/app/models/concerns:
+  /home/bill/Rails.Projects/ch3_done/app/models/concerns:
   total 0
 
-  /home/bill/rails_app/home/ch3_done/app/views:
+  /home/bill/Rails.Projects/ch3_done/app/views:
   total 12
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 layouts
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 pages
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:59 users
 
-  /home/bill/rails_app/home/ch3_done/app/views/layouts:
+  /home/bill/Rails.Projects/ch3_done/app/views/layouts:
   total 24
-* -rw-rw-r--. 1 bill bill 349 Jan 18 10:21 application.html.erb
-* -rw-rw-r--. 1 bill bill 459 Jan 18 10:21 application.html.erb.0
-* -rw-rw-r--. 1 bill bill 852 Jan 18 10:21 application.html.erb.1
-* -rw-rw-r--. 1 bill bill 294 Jan 18 10:21 _footer.html.erb
-* -rw-rw-r--. 1 bill bill 332 Jan 18 10:21 _header.html.erb
-* -rw-rw-r--. 1 bill bill 382 Jan 18 10:21 _stylesheets.html.erb
+  -rw-rw-r--. 1 bill bill 349 Jan 18 10:21 application.html.erb
+  -rw-rw-r--. 1 bill bill 459 Jan 18 10:21 application.html.erb.0
+  -rw-rw-r--. 1 bill bill 852 Jan 18 10:21 application.html.erb.1
+  -rw-rw-r--. 1 bill bill 294 Jan 18 10:21 _footer.html.erb
+  -rw-rw-r--. 1 bill bill 332 Jan 18 10:21 _header.html.erb
+  -rw-rw-r--. 1 bill bill 382 Jan 18 10:21 _stylesheets.html.erb
 
-  /home/bill/rails_app/home/ch3_done/app/views/pages:
+  /home/bill/Rails.Projects/ch3_done/app/views/pages:
   total 16
-* -rw-rw-r--. 1 bill bill 349 Jan 18 10:21 about.html.erb
-* -rw-rw-r--. 1 bill bill 231 Jan 18 10:21 contact.html.erb
-* -rw-rw-r--. 1 bill bill 250 Jan 18 10:21 help.html.erb
-* -rw-rw-r--. 1 bill bill 217 Jan 18 10:21 home.html.erb
+  -rw-rw-r--. 1 bill bill 349 Jan 18 10:21 about.html.erb
+  -rw-rw-r--. 1 bill bill 231 Jan 18 10:21 contact.html.erb
+  -rw-rw-r--. 1 bill bill 250 Jan 18 10:21 help.html.erb
+  -rw-rw-r--. 1 bill bill 217 Jan 18 10:21 home.html.erb
 
-  /home/bill/rails_app/home/ch3_done/app/views/users:
+  /home/bill/Rails.Projects/ch3_done/app/views/users:
   total 4
-* -rw-rw-r--. 1 bill bill 66 Jan 18 10:59 new.html.erb
+  -rw-rw-r--. 1 bill bill 66 Jan 18 10:59 new.html.erb
 
-  /home/bill/rails_app/home/ch3_done/bin:
+  /home/bill/Rails.Projects/ch3_done/bin:
   total 20
   -rwxrwxr-x. 1 bill bill 129 Jan 18 10:21 bundle
   -rwxrwxr-x. 1 bill bill 268 Jan 18 10:21 rails
@@ -123,7 +122,7 @@
   -rwxrwxr-x. 1 bill bill 805 Jan 18 10:21 setup
   -rwxrwxr-x. 1 bill bill 463 Jan 18 10:21 spring
 
-  /home/bill/rails_app/home/ch3_done/config:
+  /home/bill/Rails.Projects/ch3_done/config:
   total 36
   -rw-rw-r--. 1 bill bill 1401 Jan 18 10:21 application.rb
   -rw-rw-r--. 1 bill bill  132 Jan 18 10:21 boot.rb
@@ -135,13 +134,13 @@
   -rw-rw-r--. 1 bill bill 1940 Jan 18 10:59 routes.rb
   -rw-rw-r--. 1 bill bill  964 Jan 18 10:21 secrets.yml
 
-  /home/bill/rails_app/home/ch3_done/config/environments:
+  /home/bill/Rails.Projects/ch3_done/config/environments:
   total 12
   -rw-rw-r--. 1 bill bill 1600 Jan 18 10:21 development.rb
   -rw-rw-r--. 1 bill bill 3304 Jan 18 10:21 production.rb
   -rw-rw-r--. 1 bill bill 1755 Jan 18 10:21 test.rb
 
-  /home/bill/rails_app/home/ch3_done/config/initializers:
+  /home/bill/Rails.Projects/ch3_done/config/initializers:
   total 32
   -rw-rw-r--. 1 bill bill 549 Jan 18 10:21 assets.rb
   -rw-rw-r--. 1 bill bill 404 Jan 18 10:21 backtrace_silencers.rb
@@ -152,49 +151,49 @@
   -rw-rw-r--. 1 bill bill 146 Jan 18 10:21 session_store.rb
   -rw-rw-r--. 1 bill bill 517 Jan 18 10:21 wrap_parameters.rb
 
-  /home/bill/rails_app/home/ch3_done/config/locales:
+  /home/bill/Rails.Projects/ch3_done/config/locales:
   total 4
   -rw-rw-r--. 1 bill bill 634 Jan 18 10:21 en.yml
 
-  /home/bill/rails_app/home/ch3_done/db:
+  /home/bill/Rails.Projects/ch3_done/db:
   total 8
   -rw-rw-r--. 1 bill bill 789 Jan 18 10:21 schema.rb
   -rw-rw-r--. 1 bill bill 343 Jan 18 10:21 seeds.rb
 
-  /home/bill/rails_app/home/ch3_done/lib:
+  /home/bill/Rails.Projects/ch3_done/lib:
   total 8
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 assets
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 tasks
 
-  /home/bill/rails_app/home/ch3_done/lib/assets:
+  /home/bill/Rails.Projects/ch3_done/lib/assets:
   total 0
 
-  /home/bill/rails_app/home/ch3_done/lib/tasks:
+  /home/bill/Rails.Projects/ch3_done/lib/tasks:
   total 0
 
-  /home/bill/rails_app/home/ch3_done/log:
+  /home/bill/Rails.Projects/ch3_done/log:
   total 0
   -rw-rw-r--. 1 bill bill 0 Jan 18 10:59 development.log
 
-  /home/bill/rails_app/home/ch3_done/public:
+  /home/bill/Rails.Projects/ch3_done/public:
   total 24
-* -rw-rw-r--. 1 bill bill 1564 Jan 18 10:21 404.html
-* -rw-rw-r--. 1 bill bill 1547 Jan 18 10:21 422.html
-* -rw-rw-r--. 1 bill bill 1477 Jan 18 10:21 500.html
+  -rw-rw-r--. 1 bill bill 1564 Jan 18 10:21 404.html
+  -rw-rw-r--. 1 bill bill 1547 Jan 18 10:21 422.html
+  -rw-rw-r--. 1 bill bill 1477 Jan 18 10:21 500.html
   -rw-rw-r--. 1 bill bill    0 Jan 18 10:21 favicon.ico
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 images
   -rw-rw-r--. 1 bill bill  202 Jan 18 10:21 robots.txt
   drwxrwxr-x. 3 bill bill 4096 Jan 18 10:21 stylesheets
 
-  /home/bill/rails_app/home/ch3_done/public/images:
+  /home/bill/Rails.Projects/ch3_done/public/images:
   total 4
   -rw-rw-r--. 1 bill bill 2149 Jan 18 10:21 logo.png
 
-  /home/bill/rails_app/home/ch3_done/public/stylesheets:
+  /home/bill/Rails.Projects/ch3_done/public/stylesheets:
   total 4
   drwxrwxr-x. 4 bill bill 4096 Jan 18 10:21 blueprint
 
-  /home/bill/rails_app/home/ch3_done/public/stylesheets/blueprint:
+  /home/bill/Rails.Projects/ch3_done/public/stylesheets/blueprint:
   total 32
   -rw-rw-r--. 1 bill bill  1938 Jan 18 10:21 ie.css
   drwxrwxr-x. 6 bill bill  4096 Jan 18 10:21 plugins
@@ -202,37 +201,37 @@
   -rw-rw-r--. 1 bill bill 12336 Jan 18 10:21 screen.css
   drwxrwxr-x. 2 bill bill  4096 Jan 18 10:21 src
 
-  /home/bill/rails_app/home/ch3_done/public/stylesheets/blueprint/plugins:
+  /home/bill/Rails.Projects/ch3_done/public/stylesheets/blueprint/plugins:
   total 16
   drwxrwxr-x. 3 bill bill 4096 Jan 18 10:21 buttons
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 fancy-type
   drwxrwxr-x. 3 bill bill 4096 Jan 18 10:21 link-icons
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 rtl
 
-  /home/bill/rails_app/home/ch3_done/public/stylesheets/blueprint/plugins/buttons:
+  /home/bill/Rails.Projects/ch3_done/public/stylesheets/blueprint/plugins/buttons:
   total 12
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 icons
   -rw-rw-r--. 1 bill bill  930 Jan 18 10:21 readme.txt
   -rw-rw-r--. 1 bill bill 2004 Jan 18 10:21 screen.css
 
-  /home/bill/rails_app/home/ch3_done/public/stylesheets/blueprint/plugins/buttons/icons:
+  /home/bill/Rails.Projects/ch3_done/public/stylesheets/blueprint/plugins/buttons/icons:
   total 12
   -rwxrwxr-x. 1 bill bill 655 Jan 18 10:21 cross.png
   -rwxrwxr-x. 1 bill bill 455 Jan 18 10:21 key.png
   -rwxrwxr-x. 1 bill bill 537 Jan 18 10:21 tick.png
 
-  /home/bill/rails_app/home/ch3_done/public/stylesheets/blueprint/plugins/fancy-type:
+  /home/bill/Rails.Projects/ch3_done/public/stylesheets/blueprint/plugins/fancy-type:
   total 8
   -rw-rw-r--. 1 bill bill  340 Jan 18 10:21 readme.txt
   -rw-rw-r--. 1 bill bill 2244 Jan 18 10:21 screen.css
 
-  /home/bill/rails_app/home/ch3_done/public/stylesheets/blueprint/plugins/link-icons:
+  /home/bill/Rails.Projects/ch3_done/public/stylesheets/blueprint/plugins/link-icons:
   total 12
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 icons
   -rw-rw-r--. 1 bill bill  449 Jan 18 10:21 readme.txt
   -rw-rw-r--. 1 bill bill 1458 Jan 18 10:21 screen.css
 
-  /home/bill/rails_app/home/ch3_done/public/stylesheets/blueprint/plugins/link-icons/icons:
+  /home/bill/Rails.Projects/ch3_done/public/stylesheets/blueprint/plugins/link-icons/icons:
   total 124
   -rw-rw-r--. 1 bill bill   777 Jan 18 10:21 doc.png
   -rw-rw-r--. 1 bill bill   641 Jan 18 10:21 email.png
@@ -244,12 +243,12 @@
   -rw-rw-r--. 1 bill bill 46990 Jan 18 10:21 visited.png
   -rw-rw-r--. 1 bill bill   663 Jan 18 10:21 xls.png
 
-  /home/bill/rails_app/home/ch3_done/public/stylesheets/blueprint/plugins/rtl:
+  /home/bill/Rails.Projects/ch3_done/public/stylesheets/blueprint/plugins/rtl:
   total 12
   -rw-rw-r--. 1 bill bill  327 Jan 18 10:21 readme.txt
   -rw-rw-r--. 1 bill bill 4839 Jan 18 10:21 screen.css
 
-  /home/bill/rails_app/home/ch3_done/public/stylesheets/blueprint/src:
+  /home/bill/Rails.Projects/ch3_done/public/stylesheets/blueprint/src:
   total 36
   -rw-rw-r--. 1 bill bill 2686 Jan 18 10:21 forms.css
   -rwxrwxr-x. 1 bill bill 9518 Jan 18 10:21 grid.css
@@ -259,7 +258,7 @@
   -rwxrwxr-x. 1 bill bill 1577 Jan 18 10:21 reset.css
   -rw-rw-r--. 1 bill bill 3638 Jan 18 10:21 typography.css
 
-  /home/bill/rails_app/home/ch3_done/spec:
+  /home/bill/Rails.Projects/ch3_done/spec:
   total 28
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:59 controllers
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:59 helpers
@@ -268,45 +267,45 @@
   -rw-rw-r--. 1 bill bill 6269 Jan 18 10:21 spec_helper.rb
   drwxrwxr-x. 4 bill bill 4096 Jan 18 10:59 views
 
-  /home/bill/rails_app/home/ch3_done/spec/controllers:
+  /home/bill/Rails.Projects/ch3_done/spec/controllers:
   total 8
   -rw-rw-r--. 1 bill bill 1266 Jan 18 10:21 pages_controller_spec.rb
   -rw-rw-r--. 1 bill bill  223 Jan 18 10:59 users_controller_spec.rb
 
-  /home/bill/rails_app/home/ch3_done/spec/helpers:
+  /home/bill/Rails.Projects/ch3_done/spec/helpers:
   total 8
   -rw-rw-r--. 1 bill bill 430 Jan 18 10:21 pages_helper_spec.rb
   -rw-rw-r--. 1 bill bill 430 Jan 18 10:59 users_helper_spec.rb
 
-  /home/bill/rails_app/home/ch3_done/spec/requests:
+  /home/bill/Rails.Projects/ch3_done/spec/requests:
   total 4
   -rw-rw-r--. 1 bill bill 847 Jan 18 10:21 layout_links_spec.rb
 
-  /home/bill/rails_app/home/ch3_done/spec/views:
+  /home/bill/Rails.Projects/ch3_done/spec/views:
   total 8
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 pages
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:59 users
 
-  /home/bill/rails_app/home/ch3_done/spec/views/pages:
+  /home/bill/Rails.Projects/ch3_done/spec/views/pages:
   total 8
-* -rw-rw-r--. 1 bill bill 141 Jan 18 10:21 contact.html.erb_spec.rb
-* -rw-rw-r--. 1 bill bill 138 Jan 18 10:21 home.html.erb_spec.rb
+  -rw-rw-r--. 1 bill bill 141 Jan 18 10:21 contact.html.erb_spec.rb
+  -rw-rw-r--. 1 bill bill 138 Jan 18 10:21 home.html.erb_spec.rb
 
-  /home/bill/rails_app/home/ch3_done/spec/views/users:
+  /home/bill/Rails.Projects/ch3_done/spec/views/users:
   total 4
-* -rw-rw-r--. 1 bill bill 137 Jan 18 10:59 new.html.erb_spec.rb
+  -rw-rw-r--. 1 bill bill 137 Jan 18 10:59 new.html.erb_spec.rb
 
-  /home/bill/rails_app/home/ch3_done/vendor:
+  /home/bill/Rails.Projects/ch3_done/vendor:
   total 4
   drwxrwxr-x. 4 bill bill 4096 Jan 18 10:21 assets
 
-  /home/bill/rails_app/home/ch3_done/vendor/assets:
+  /home/bill/Rails.Projects/ch3_done/vendor/assets:
   total 8
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 javascripts
   drwxrwxr-x. 2 bill bill 4096 Jan 18 10:21 stylesheets
 
-  /home/bill/rails_app/home/ch3_done/vendor/assets/javascripts:
+  /home/bill/Rails.Projects/ch3_done/vendor/assets/javascripts:
   total 0
 
-  /home/bill/rails_app/home/ch3_done/vendor/assets/stylesheets:
+  /home/bill/Rails.Projects/ch3_done/vendor/assets/stylesheets:
   total 0
