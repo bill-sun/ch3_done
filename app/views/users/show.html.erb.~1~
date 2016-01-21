@@ -1,0 +1,2 @@
+<!--# 6.3.2 User Model, View, Controller -->
+<%= @user.name %>, <%= @user.email %>

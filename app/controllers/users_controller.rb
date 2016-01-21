@@ -10,6 +10,9 @@
 #
 
 class UsersController < ApplicationController
+  def show # 6.3.2 User Model, View, Controller
+    @user = User.find(params[:id])
+  end
   def new
 	@title = "Sign up"
   end

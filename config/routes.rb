@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-
-  get 'users/new'
+  resources :users # 6.3.3 A Users Resource
+  #get 'users/new' # 6.3.3 A Users Resource
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -19,6 +19,7 @@ Rails.application.routes.draw do
   get '/about' => 'pages#about', as: :about
   #match '/about', to: 'pages#about', via: 'get'
   get '/help' => 'pages#help',   as: :help
+
   get '/signup' => 'users#new', as: :signup
   #match '/help', to: 'pages#help', via: 'get'
 
