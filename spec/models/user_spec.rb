@@ -14,7 +14,11 @@ require 'rails_helper'
 RSpec.describe User, type: :model do
   # pending "add some examples to (or delete) #{__FILE__}"
   before(:each) do
-    @attr = { :name => "Example User", :email => "user@example.com" }
+    @attr = { :name => "Example User",
+              :email => "user@example.com",
+              :password => "foobar", #7.1.1 Password Validations
+              :password_confirmation => "foobar" #7.1.1 Password Validations
+            }
   end
 
   it "should create a new instance given valid attributes" do
@@ -66,8 +70,48 @@ RSpec.describe User, type: :model do
     upcased_email = @attr[:email].upcase
     User.create!(@attr.merge(:email => upcased_email))
     user_with_duplicate_email = User.new(@attr)
-    user_with_duplicate_email.should_not be_valid
+    expect(user_with_duplicate_email).to_not be_valid
   end
 
+  # Following from 7.1.1 Password Validations
+  describe "password validations" do
+
+    it "should require a password" do
+      expect(User.new(@attr.merge(:password => "", :password_confirmation => ""))).
+        to_not be_valid
+    end
+
+    it "should require a matching password confirmation" do
+      expect(User.new(@attr.merge(:password_confirmation => "invalid"))).
+        to_not be_valid
+    end
+
+    it "should reject short passwords" do
+      short = "a" * 5
+      hash = @attr.merge(:password => short, :password_confirmation => short)
+      expect(User.new(hash)).to_not be_valid
+    end
+
+    it "should reject long passwords" do
+      long = "a" * 41
+      hash = @attr.merge(:password => long, :password_confirmation => long)
+      expect(User.new(hash)).to_not be_valid
+    end
+  end
+  
+  # 7.1.1 Password Validations
+  describe "password encryption" do
+    before(:each) do
+      @user = User.create!(@attr)
+    end
+    it "should have an encrypted password attribute" do
+      expect(@user).to respond_to(:encrypted_password)
+    end
+    # 7.1.3 An Active Record Callback
+    it "should set the encrypted password" do
+      expect(@user.encrypted_password).to_not be_blank
+    end
+  end
+  
   it "should require a name"
 end
