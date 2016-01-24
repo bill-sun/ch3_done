@@ -8,12 +8,14 @@
 #  created_at         :datetime         not null
 #  updated_at         :datetime         not null
 #  encrypted_password :string
+#  salt               :string
 #
 # Indexes
 #
 #  index_users_on_email  (email) UNIQUE
 #
 
+require 'digest'
 class User < ActiveRecord::Base
 
   attr_accessor :password # 7.1.1 Password Validations
@@ -37,11 +39,32 @@ class User < ActiveRecord::Base
 
   # 7.1.3 An Active Record Callback
   before_save :encrypt_password
+  # Return true if the user's password matches the submitted password.
+
+  # 7.2.1 A Secure Password Test
+  def has_password?(submitted_password)
+	# Compare encrypted_password with the encrypted version of
+	# submitted_password.
+    # 7.2.3 Implementing has_password?
+    encrypted_password == encrypt(submitted_password)    
+  end
+
+  # 7.1.3 An Active Record Callback
   private
   def encrypt_password
+    self.salt = make_salt if new_record? # 7.2.3 Implementing has_password?
     self.encrypted_password = encrypt(password)
   end
+
   def encrypt(string)
-    string # Only a temporary implementation!
+    secure_hash("#{salt}--#{string}")
+  end
+
+  def make_salt
+    secure_hash("#{Time.now.utc}--#{password}")
+  end
+
+  def secure_hash(string)
+    Digest::SHA2.hexdigest(string)
   end
 end

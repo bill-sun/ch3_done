@@ -111,7 +111,18 @@ RSpec.describe User, type: :model do
     it "should set the encrypted password" do
       expect(@user.encrypted_password).to_not be_blank
     end
+
+    # 7.2.1 A Secure Password Test
+	describe "has_password? method" do
+	  it "should be true if the passwords match" do
+		expect(@user.has_password?(@attr[:password])).to_not be_truthy
+	  end
+
+	  it "should be false if the passwords don't match" do
+		expect(@user.has_password?("invalid")).to be_falsey
+	  end
+	end
   end
-  
+
   it "should require a name"
 end
