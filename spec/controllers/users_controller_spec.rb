@@ -13,6 +13,25 @@ require 'rails_helper'
 
 RSpec.describe UsersController, type: :controller do
   render_views
+
+  describe "GET 'show'" do
+
+	before(:each) do
+      #	  @user = Factory(:user)
+      @user = FactoryGirl.create(:user)
+	end
+
+	it "should be successful" do
+	  get :show, :id => @user
+	  response.should be_success
+	end
+
+	it "should find the right user" do
+	  get :show, :id => @user
+	  assigns(:user).should == @user
+	end
+  end
+
   describe "GET #new" do
     it "returns http success" do
       get :new
@@ -23,9 +42,6 @@ RSpec.describe UsersController, type: :controller do
 	  expect(response.body).to have_selector("title",
 								             :text => "Sign up",
                                              :visible => false)
-
 	end
-    
   end
-
 end
