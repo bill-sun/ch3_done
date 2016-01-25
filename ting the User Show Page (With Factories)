@@ -1,0 +1,178 @@
+commit 7375183b1ac62299ad09b4ae36ce4d013f52762a
+Author: bill <bill@ruby.com>
+Date:   Mon Jan 25 17:29:04 2016 +0800
+
+    7.3 Better User Views
+    * 7.3.1 Testing the User Show Page (With Factories)
+
+commit f1d41b84f791f497a8b54ddbde72194897944106
+Author: bill <bill@ruby.com>
+Date:   Mon Jan 25 17:26:05 2016 +0800
+
+    7.3 Better User Views
+    * 7.3.1 Testing the User Show Page (With Factories)
+
+commit 6e2f30e718c783d38678aaba8841f83d68543f31
+Author: bill <bill@ruby.com>
+Date:   Mon Jan 25 14:42:36 2016 +0800
+
+    * 7.2.4 An Authenticate Method
+
+commit 98882356e0547a309a0097cffef3ef87e96e48f0
+Author: bill <bill@ruby.com>
+Date:   Sun Jan 24 22:45:16 2016 +0800
+
+    7.2 Secure Passwords
+    * 7.2.1 A Secure Password Test
+    * 7.2.2 Some Secure Password Theory
+    * 7.2.3 Implementing has_password?
+    * 7.2.4 An Authenticate Method
+
+commit 069955b66c164104f9d2f2a17f3bb5d33e2ed1bd
+Author: bill <bill@ruby.com>
+Date:   Fri Jan 22 23:36:15 2016 +0800
+
+    7.1 Insecure Passwords
+    * 7.1.1 Password Validations
+    * 7.1.2 A Password Migration
+    * 7.1.3 An Active Record Callback
+
+commit a3cc89471d800f991c30026216ce8b3086126964
+Author: bill <bill@ruby.com>
+Date:   Fri Jan 22 10:13:56 2016 +0800
+
+    remove the tmp files
+
+commit 7a3ab43465403374895c6324c57514d88532fed7
+Author: bill <bill@ruby.com>
+Date:   Thu Jan 21 23:55:45 2016 +0800
+
+    chp6 - Finished first cut of the User model
+
+commit 4f603787fd1676d76831987f67d37f8ae445fe3e
+Author: bill <bill@ruby.com>
+Date:   Thu Jan 21 17:22:00 2016 +0800
+
+    6.3.2 User Model, View, Controller/6.3.3 A Users Resource
+
+commit 211399a5cc86c252024b6abe0c7c1ac301a1544c
+Author: bill <bill@ruby.com>
+Date:   Wed Jan 20 23:44:08 2016 +0800
+
+    6.2.4 Uniqueness Validation(2)
+
+commit e4bc026ac74485f79ba564e1bb5c5c0215ae9ead
+Merge: 9d025c8 6eb5258
+Author: bill <bill@ruby.com>
+Date:   Wed Jan 20 22:38:39 2016 +0800
+
+    remove temp files
+
+commit 9d025c8c27afbf2d12a6eb0edc540baaff7637c8
+Author: bill <bill@ruby.com>
+Date:   Wed Jan 20 22:34:29 2016 +0800
+
+    remove temp files
+
+commit 6eb52582a7f846f574d47e25dd3e4d4ca4df04f0
+Author: bill <bill@ruby.com>
+Date:   Wed Jan 20 17:17:02 2016 +0800
+
+    6.2.4 Uniqueness Validation(1)
+
+commit 3b7ed025e0a5cd4e0229b7db63ededfe59320fc5
+Author: bill <bill@ruby.com>
+Date:   Wed Jan 20 16:06:08 2016 +0800
+
+    6.2.3 Format Validation
+
+commit 9d049d3dc13d556ea05ff82f97abc49ea33066ae
+Author: bill <bill@ruby.com>
+Date:   Wed Jan 20 15:20:03 2016 +0800
+
+    6.2.2 Length Validation
+
+commit 3fd0818f99322d51b0aa8fc46ac21b7974700c3e
+Author: bill <bill@ruby.com>
+Date:   Wed Jan 20 13:37:18 2016 +0800
+
+    6.2.1 Validating Presence completed
+
+commit 3dfbfafe05bb21589c86b29f84ac9f5aa15b1df1
+Author: bill <bill@ruby.com>
+Date:   Wed Jan 20 00:00:17 2016 +0800
+
+    6.2.1 Validating Presence
+
+commit 00d96c1fbba210da919bdc6aaeb35ba79990a4ec
+Merge: fd2a29a 36eb90c
+Author: bill <bill@ruby.com>
+Date:   Tue Jan 19 23:09:12 2016 +0800
+
+    Merge remote branch 'origin/chp06-Modeling-and-Viewing-Users-Part-I' into chp05-filling-in-layout
+
+commit 36eb90c3f4da57e86f1f665a3990be0e4ecd620f
+Author: bill <bill@ruby.com>
+Date:   Tue Jan 19 15:59:37 2016 +0800
+
+    ch05 continue
+
+commit fd2a29a054e1a4045acca058670448a5ba363a88
+Author: bill <bill@ruby.com>
+Date:   Mon Jan 18 23:36:17 2016 +0800
+
+    remove all *.~*
+
+commit ac0f8a0fe32ae8643edfdbf0f8ac2c572ae1fbd5
+Author: bill <bill@ruby.com>
+Date:   Mon Jan 18 17:22:16 2016 +0800
+
+    user modal, annotated, but strong parameter for Rails4
+
+commit f0a09676e06657790598749dd8c1d64320876eca
+Author: bill <bill@ruby.com>
+Date:   Mon Jan 18 11:38:38 2016 +0800
+
+    Finished chp 05
+
+commit e4551589e3b52cc491ef9527898d445fb5e62c92
+Author: bill <bill@ruby.com>
+Date:   Sun Jan 17 23:30:23 2016 +0800
+
+    add blueprint folder under public/stysheet/
+
+commit 87a274d249b12aaf522f478bc4598ced42ba6f5f
+Author: bill <bill@ruby.com>
+Date:   Thu Jan 14 17:25:37 2016 +0800
+
+    has_selector
+
+commit b3f5a6ef14b17ca1f3c2dfe7e43aa53efa8b34fd
+Author: bill <bill@ruby.com>
+Date:   Wed Jan 13 17:28:12 2016 +0800
+
+    homp_path
+
+commit 855bee812181f031016810e8eb2ff846fcac3ca9
+Author: bill <bill@ruby.com>
+Date:   Tue Jan 12 17:21:59 2016 +0800
+
+    integration test
+
+commit 12d68865eed54572033b6355e26a497e0ca63671
+Author: bill <bill@ruby.com>
+Date:   Mon Jan 11 17:14:04 2016 +0800
+
+    integration test
+
+commit 35aaa93401d8d37c72719e167fc9b6b5ac3f6536
+Author: bill <bill@ruby.com>
+Date:   Thu Jan 7 17:23:40 2016 +0800
+
+    start chp4:undefined method title
+
+commit 5e1f58724a2e32e7128bda1eb6d474183e547e2c
+Author: bill <bill@ruby.com>
+Date:   Thu Jan 7 15:30:06 2016 +0800
+
+    chapter 3 done

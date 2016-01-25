@@ -8,7 +8,7 @@ FactoryGirl.define do
     password_confirmation "foobar"
     #    first_name "John"
     #    last_name  "Doe"
-    admin false
+    # admin false # cause exception: NoMethodError
   end
 
   # This will use the User class (Admin would have been guessed)
