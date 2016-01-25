@@ -49,6 +49,14 @@ class User < ActiveRecord::Base
     encrypted_password == encrypt(submitted_password)    
   end
 
+  # 7.2.4 An Authenticate Method
+  def self.authenticate(email, submitted_password)
+	user = find_by_email(email)
+	return nil if user.nil?
+
+	return user if user.has_password?(submitted_password)
+  end
+  
   # 7.1.3 An Active Record Callback
   private
   def encrypt_password

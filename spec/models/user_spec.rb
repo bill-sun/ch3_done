@@ -115,13 +115,30 @@ RSpec.describe User, type: :model do
     # 7.2.1 A Secure Password Test
 	describe "has_password? method" do
 	  it "should be true if the passwords match" do
-		expect(@user.has_password?(@attr[:password])).to_not be_truthy
+		expect(@user.has_password?(@attr[:password])).to be_truthy
 	  end
 
 	  it "should be false if the passwords don't match" do
 		expect(@user.has_password?("invalid")).to be_falsey
 	  end
 	end
+
+	describe "authenticate method" do
+	  it "should return nil on email/password mismatch" do
+		wrong_password_user = User.authenticate(@attr[:email], "wrongpass")
+		expect(wrong_password_user).to be_nil
+	  end
+
+	  it "should return nil for an email address with no user" do
+		nonexistent_user = User.authenticate("bar@foo.com", @attr[:password])
+		expect(nonexistent_user).to be_nil
+	  end
+
+	  it "should return the user on email/password match" do
+		matching_user = User.authenticate(@attr[:email], @attr[:password])
+		matching_user.should == @user
+	  end
+	end    
   end
 
   it "should require a name"

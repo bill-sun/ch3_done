@@ -1,0 +1,402 @@
+  /home/bill/rails_app/ch3_done:
+  total 68
+  drwxrwxr-x. 8 bill bill 4096 Jan 22 22:51 app
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 bin
+  drwxrwxr-x. 5 bill bill 4096 Jan 22 22:51 config
+  -rw-rw-r--. 1 bill bill  153 Jan 21 11:00 config.ru
+  drwxrwxr-x. 3 bill bill 4096 Jan 22 23:33 db
+  -rw-rw-r--. 1 bill bill    0 Jan 24 13:29 dired
+  -rw-rw-r--. 1 bill bill 1982 Jan 21 11:00 Gemfile
+  -rw-rw-r--. 1 bill bill 5465 Jan 21 11:00 Gemfile.lock
+  drwxrwxr-x. 4 bill bill 4096 Jan 22 22:51 lib
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 log
+  drwxrwxr-x. 4 bill bill 4096 Jan 22 22:51 public
+  -rw-rw-r--. 1 bill bill  249 Jan 21 11:00 Rakefile
+  -rw-rw-r--. 1 bill bill  478 Jan 21 11:00 README.rdoc
+  drwxrwxr-x. 7 bill bill 4096 Jan 22 22:51 spec
+  drwxrwxr-x. 3 bill bill 4096 Jan 22 23:33 tmp
+  -rw-rw-r--. 1 bill bill  128 Jan 21 11:00 tri  => ""
+  drwxrwxr-x. 3 bill bill 4096 Jan 22 22:51 vendor
+
+  /home/bill/rails_app/ch3_done/app:
+  total 24
+  drwxrwxr-x. 5 bill bill 4096 Jan 22 22:51 assets
+  drwxrwxr-x. 4 bill bill 4096 Jan 22 22:51 controllers
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 helpers
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 mailers
+  drwxrwxr-x. 3 bill bill 4096 Jan 24 00:24 models
+  drwxrwxr-x. 5 bill bill 4096 Jan 22 22:51 views
+
+  /home/bill/rails_app/ch3_done/app/assets:
+  total 12
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 images
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 javascripts
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 stylesheets
+
+  /home/bill/rails_app/ch3_done/app/assets/images:
+  total 0
+
+  /home/bill/rails_app/ch3_done/app/assets/javascripts:
+  total 12
+  -rw-rw-r--. 1 bill bill 661 Jan 21 11:00 application.js
+  -rw-rw-r--. 1 bill bill 211 Jan 21 11:00 pages.coffee
+  -rw-rw-r--. 1 bill bill 211 Jan 21 11:00 users.coffee
+
+  /home/bill/rails_app/ch3_done/app/assets/stylesheets:
+  total 16
+  -rw-rw-r--. 1 bill bill  686 Jan 21 11:00 application.css
+  -rw-rw-r--. 1 bill bill 1110 Jan 21 11:00 custom.css
+  -rw-rw-r--. 1 bill bill  176 Jan 21 11:00 pages.scss
+  -rw-rw-r--. 1 bill bill  176 Jan 21 11:00 users.scss
+
+  /home/bill/rails_app/ch3_done/app/controllers:
+  total 20
+  drwxrwxr-x. 3 bill bill 4096 Jan 22 22:51 app
+  -rw-rw-r--. 1 bill bill  204 Jan 21 11:00 application_controller.rb
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 concerns
+  -rw-rw-r--. 1 bill bill  199 Jan 21 11:00 pages_controller.rb
+  -rw-rw-r--. 1 bill bill  406 Jan 21 17:19 users_controller.rb
+
+  /home/bill/rails_app/ch3_done/app/controllers/app:
+  total 4
+  drwxrwxr-x. 3 bill bill 4096 Jan 22 22:51 views
+
+  /home/bill/rails_app/ch3_done/app/controllers/app/views:
+  total 4
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 pages
+
+  /home/bill/rails_app/ch3_done/app/controllers/app/views/pages:
+  total 4
+  -rw-rw-r--. 1 bill bill 250 Jan 21 11:00 help.html.erb
+
+  /home/bill/rails_app/ch3_done/app/controllers/concerns:
+  total 0
+
+  /home/bill/rails_app/ch3_done/app/helpers:
+  total 12
+  -rw-rw-r--. 1 bill bill 229 Jan 21 11:00 application_helper.rb
+  -rw-rw-r--. 1 bill bill  23 Jan 21 11:00 pages_helper.rb
+  -rw-rw-r--. 1 bill bill 254 Jan 21 11:00 users_helper.rb
+
+  /home/bill/rails_app/ch3_done/app/mailers:
+  total 0
+
+  /home/bill/rails_app/ch3_done/app/models:
+  total 8
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 concerns
+  -rw-rw-r--. 1 bill bill 2092 Jan 24 00:24 user.rb
+
+  /home/bill/rails_app/ch3_done/app/models/concerns:
+  total 0
+
+  /home/bill/rails_app/ch3_done/app/views:
+  total 12
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 layouts
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 pages
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 users
+
+  /home/bill/rails_app/ch3_done/app/views/layouts:
+  total 16
+  -rw-rw-r--. 1 bill bill 452 Jan 22 10:08 application.html.erb
+  -rw-rw-r--. 1 bill bill 294 Jan 21 11:00 _footer.html.erb
+  -rw-rw-r--. 1 bill bill 340 Jan 21 11:00 _header.html.erb
+  -rw-rw-r--. 1 bill bill 382 Jan 21 11:00 _stylesheets.html.erb
+
+  /home/bill/rails_app/ch3_done/app/views/pages:
+  total 16
+  -rw-rw-r--. 1 bill bill 349 Jan 21 11:00 about.html.erb
+  -rw-rw-r--. 1 bill bill 231 Jan 21 11:00 contact.html.erb
+  -rw-rw-r--. 1 bill bill 250 Jan 21 11:00 help.html.erb
+  -rw-rw-r--. 1 bill bill 225 Jan 21 16:37 home.html.erb
+
+  /home/bill/rails_app/ch3_done/app/views/users:
+  total 8
+  -rw-rw-r--. 1 bill bill 66 Jan 21 11:00 new.html.erb
+  -rw-rw-r--. 1 bill bill 83 Jan 21 15:35 show.html.erb
+
+  /home/bill/rails_app/ch3_done/bin:
+  total 20
+  -rwxrwxr-x. 1 bill bill 129 Jan 21 11:00 bundle
+  -rwxrwxr-x. 1 bill bill 268 Jan 21 11:00 rails
+  -rwxrwxr-x. 1 bill bill 213 Jan 21 11:00 rake
+  -rwxrwxr-x. 1 bill bill 805 Jan 21 11:00 setup
+  -rwxrwxr-x. 1 bill bill 463 Jan 21 11:00 spring
+
+  /home/bill/rails_app/ch3_done/config:
+  total 36
+  -rw-rw-r--. 1 bill bill 1465 Jan 21 11:00 application.rb
+  -rw-rw-r--. 1 bill bill  132 Jan 21 11:00 boot.rb
+  -rw-rw-r--. 1 bill bill  552 Jan 21 11:00 database.yml
+  -rw-rw-r--. 1 bill bill  150 Jan 21 11:00 environment.rb
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 environments
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 initializers
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 locales
+  -rw-rw-r--. 1 bill bill 2054 Jan 21 17:11 routes.rb
+  -rw-rw-r--. 1 bill bill  964 Jan 21 11:00 secrets.yml
+
+  /home/bill/rails_app/ch3_done/config/environments:
+  total 12
+  -rw-rw-r--. 1 bill bill 1600 Jan 21 11:00 development.rb
+  -rw-rw-r--. 1 bill bill 3304 Jan 21 11:00 production.rb
+  -rw-rw-r--. 1 bill bill 1755 Jan 21 11:00 test.rb
+
+  /home/bill/rails_app/ch3_done/config/initializers:
+  total 32
+  -rw-rw-r--. 1 bill bill 549 Jan 21 11:00 assets.rb
+  -rw-rw-r--. 1 bill bill 404 Jan 21 11:00 backtrace_silencers.rb
+  -rw-rw-r--. 1 bill bill 129 Jan 21 11:00 cookies_serializer.rb
+  -rw-rw-r--. 1 bill bill 194 Jan 21 11:00 filter_parameter_logging.rb
+  -rw-rw-r--. 1 bill bill 647 Jan 21 11:00 inflections.rb
+  -rw-rw-r--. 1 bill bill 156 Jan 21 11:00 mime_types.rb
+  -rw-rw-r--. 1 bill bill 146 Jan 21 11:00 session_store.rb
+  -rw-rw-r--. 1 bill bill 517 Jan 21 11:00 wrap_parameters.rb
+
+  /home/bill/rails_app/ch3_done/config/locales:
+  total 4
+  -rw-rw-r--. 1 bill bill 634 Jan 21 11:00 en.yml
+
+  /home/bill/rails_app/ch3_done/db:
+  total 28
+  -rw-r--r--. 1 bill bill 6144 Jan 22 15:00 development.sqlite3
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 migrate
+  -rw-rw-r--. 1 bill bill 1111 Jan 22 15:00 schema.rb
+  -rw-rw-r--. 1 bill bill  343 Jan 21 11:00 seeds.rb
+  -rw-r--r--. 1 bill bill 6144 Jan 22 15:11 test.sqlite3
+
+  /home/bill/rails_app/ch3_done/db/migrate:
+  total 16
+  -rw-rw-r--. 1 bill bill 181 Jan 21 11:00 20160118055142_create_users.rb
+  -rw-rw-r--. 1 bill bill 315 Jan 21 11:00 20160120090438_add_email_uniqueness_index.rb
+  -rw-rw-r--. 1 bill bill 157 Jan 22 16:43 20160122063553_add_password_to_users.rb
+
+  /home/bill/rails_app/ch3_done/lib:
+  total 8
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 assets
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 tasks
+
+  /home/bill/rails_app/ch3_done/lib/assets:
+  total 0
+
+  /home/bill/rails_app/ch3_done/lib/tasks:
+  total 4
+  -rw-rw-r--. 1 bill bill 1931 Jan 21 11:00 auto_annotate_models.rake
+
+  /home/bill/rails_app/ch3_done/log:
+  total 208
+  -rw-rw-r--. 1 bill bill  75862 Jan 22 15:11 development.log
+  -rw-rw-r--. 1 bill bill 132625 Jan 22 23:33 test.log
+
+  /home/bill/rails_app/ch3_done/public:
+  total 24
+  -rw-rw-r--. 1 bill bill 1564 Jan 21 11:00 404.html
+  -rw-rw-r--. 1 bill bill 1547 Jan 21 11:00 422.html
+  -rw-rw-r--. 1 bill bill 1477 Jan 21 11:00 500.html
+  -rw-rw-r--. 1 bill bill    0 Jan 21 11:00 favicon.ico
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 images
+  -rw-rw-r--. 1 bill bill  202 Jan 21 11:00 robots.txt
+  drwxrwxr-x. 3 bill bill 4096 Jan 22 22:51 stylesheets
+
+  /home/bill/rails_app/ch3_done/public/images:
+  total 4
+  -rw-rw-r--. 1 bill bill 2149 Jan 21 11:00 logo.png
+
+  /home/bill/rails_app/ch3_done/public/stylesheets:
+  total 4
+  drwxrwxr-x. 4 bill bill 4096 Jan 22 22:51 blueprint
+
+  /home/bill/rails_app/ch3_done/public/stylesheets/blueprint:
+  total 32
+  -rw-rw-r--. 1 bill bill  1938 Jan 21 11:00 ie.css
+  drwxrwxr-x. 6 bill bill  4096 Jan 22 22:51 plugins
+  -rw-rw-r--. 1 bill bill  1286 Jan 21 11:00 print.css
+  -rw-rw-r--. 1 bill bill 12336 Jan 21 11:00 screen.css
+  drwxrwxr-x. 2 bill bill  4096 Jan 22 22:51 src
+
+  /home/bill/rails_app/ch3_done/public/stylesheets/blueprint/plugins:
+  total 16
+  drwxrwxr-x. 3 bill bill 4096 Jan 22 22:51 buttons
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 fancy-type
+  drwxrwxr-x. 3 bill bill 4096 Jan 22 22:51 link-icons
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 rtl
+
+  /home/bill/rails_app/ch3_done/public/stylesheets/blueprint/plugins/buttons:
+  total 12
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 icons
+  -rw-rw-r--. 1 bill bill  930 Jan 21 11:00 readme.txt
+  -rw-rw-r--. 1 bill bill 2004 Jan 21 11:00 screen.css
+
+  /home/bill/rails_app/ch3_done/public/stylesheets/blueprint/plugins/buttons/icons:
+  total 12
+  -rwxrwxr-x. 1 bill bill 655 Jan 21 11:00 cross.png
+  -rwxrwxr-x. 1 bill bill 455 Jan 21 11:00 key.png
+  -rwxrwxr-x. 1 bill bill 537 Jan 21 11:00 tick.png
+
+  /home/bill/rails_app/ch3_done/public/stylesheets/blueprint/plugins/fancy-type:
+  total 8
+  -rw-rw-r--. 1 bill bill  340 Jan 21 11:00 readme.txt
+  -rw-rw-r--. 1 bill bill 2244 Jan 21 11:00 screen.css
+
+  /home/bill/rails_app/ch3_done/public/stylesheets/blueprint/plugins/link-icons:
+  total 12
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 icons
+  -rw-rw-r--. 1 bill bill  449 Jan 21 11:00 readme.txt
+  -rw-rw-r--. 1 bill bill 1458 Jan 21 11:00 screen.css
+
+  /home/bill/rails_app/ch3_done/public/stylesheets/blueprint/plugins/link-icons/icons:
+  total 124
+  -rw-rw-r--. 1 bill bill   777 Jan 21 11:00 doc.png
+  -rw-rw-r--. 1 bill bill   641 Jan 21 11:00 email.png
+  -rw-rw-r--. 1 bill bill 46848 Jan 21 11:00 external.png
+  -rw-rw-r--. 1 bill bill   691 Jan 21 11:00 feed.png
+  -rw-rw-r--. 1 bill bill   741 Jan 21 11:00 im.png
+  -rw-rw-r--. 1 bill bill   749 Jan 21 11:00 lock.png
+  -rw-rw-r--. 1 bill bill   591 Jan 21 11:00 pdf.png
+  -rw-rw-r--. 1 bill bill 46990 Jan 21 11:00 visited.png
+  -rw-rw-r--. 1 bill bill   663 Jan 21 11:00 xls.png
+
+  /home/bill/rails_app/ch3_done/public/stylesheets/blueprint/plugins/rtl:
+  total 12
+  -rw-rw-r--. 1 bill bill  327 Jan 21 11:00 readme.txt
+  -rw-rw-r--. 1 bill bill 4839 Jan 21 11:00 screen.css
+
+  /home/bill/rails_app/ch3_done/public/stylesheets/blueprint/src:
+  total 36
+  -rw-rw-r--. 1 bill bill 2686 Jan 21 11:00 forms.css
+  -rwxrwxr-x. 1 bill bill 9518 Jan 21 11:00 grid.css
+  -rw-rw-r--. 1 bill bill  104 Jan 21 11:00 grid.png
+  -rw-rw-r--. 1 bill bill 2669 Jan 21 11:00 ie.css
+  -rwxrwxr-x. 1 bill bill 2157 Jan 21 11:00 print.css
+  -rwxrwxr-x. 1 bill bill 1577 Jan 21 11:00 reset.css
+  -rw-rw-r--. 1 bill bill 3638 Jan 21 11:00 typography.css
+
+  /home/bill/rails_app/ch3_done/spec:
+  total 32
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 controllers
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 helpers
+  drwxrwxr-x. 2 bill bill 4096 Jan 24 00:24 models
+  -rw-rw-r--. 1 bill bill 2727 Jan 21 11:00 rails_helper.rb
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 requests
+  -rw-rw-r--. 1 bill bill 6384 Jan 21 11:00 spec_helper.rb
+  drwxrwxr-x. 4 bill bill 4096 Jan 22 22:51 views
+
+  /home/bill/rails_app/ch3_done/spec/controllers:
+  total 8
+  -rw-rw-r--. 1 bill bill 1266 Jan 21 11:00 pages_controller_spec.rb
+  -rw-rw-r--. 1 bill bill  685 Jan 21 11:00 users_controller_spec.rb
+
+  /home/bill/rails_app/ch3_done/spec/helpers:
+  total 8
+  -rw-rw-r--. 1 bill bill 430 Jan 21 11:00 pages_helper_spec.rb
+  -rw-rw-r--. 1 bill bill 430 Jan 21 11:00 users_helper_spec.rb
+
+  /home/bill/rails_app/ch3_done/spec/models:
+  total 4
+  -rw-rw-r--. 1 bill bill 3985 Jan 24 00:24 user_spec.rb
+
+  /home/bill/rails_app/ch3_done/spec/requests:
+  total 4
+  -rw-rw-r--. 1 bill bill 891 Jan 21 11:00 layout_links_spec.rb
+
+  /home/bill/rails_app/ch3_done/spec/views:
+  total 8
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 pages
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 users
+
+  /home/bill/rails_app/ch3_done/spec/views/pages:
+  total 8
+  -rw-rw-r--. 1 bill bill 141 Jan 21 11:00 contact.html.erb_spec.rb
+  -rw-rw-r--. 1 bill bill 138 Jan 21 11:00 home.html.erb_spec.rb
+
+  /home/bill/rails_app/ch3_done/spec/views/users:
+  total 4
+  -rw-rw-r--. 1 bill bill 137 Jan 21 11:00 new.html.erb_spec.rb
+
+  /home/bill/rails_app/ch3_done/tmp:
+  total 4
+  drwxrwxr-x. 3 bill bill 4096 Jan 22 23:33 cache
+
+  /home/bill/rails_app/ch3_done/tmp/cache:
+  total 4
+  drwxrwxr-x. 3 bill bill 4096 Jan 22 23:33 sprockets
+
+  /home/bill/rails_app/ch3_done/tmp/cache/sprockets:
+  total 4
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 23:33 v3.0
+
+  /home/bill/rails_app/ch3_done/tmp/cache/sprockets/v3.0:
+  total 424
+  -rw-rw-r--. 1 bill bill  1878 Jan 22 23:33 1gajDyy45ur1MZKqjcHRcNHtlRQ-02sCdTeTNC8ZFuU.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 2ep3VOwv7hehUnC79nzQtmS_urOgEMcEigWPbLxcDJg.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 3bEkc3RCDdE0sFCK8-IjzR7HEzZlZvEz0kzrzAeEW2Q.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 4-74k5OJhsXNm9kgaO4bybsl8ZZmU40XKCtaV74a7T8.cache
+  -rw-rw-r--. 1 bill bill   537 Jan 22 23:33 5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 9C3J5qYMU1I4s8eJ4GRLDBh6GbSQ_Gdda-9kAQBY3sE.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 9YmJny56IGfKgTdB910FqxMmUo1HFOKd0z0HD8NrnY8.cache
+  -rw-rw-r--. 1 bill bill   158 Jan 22 23:33 aEUTGL8PXQoDkdFmgrt4N9ckqSTL7tlqAm81hykafbE.cache
+  -rw-rw-r--. 1 bill bill  1116 Jan 22 23:33 anGLwb-DuCj4BIgP1rtHHCrF_J8TangYXpyMNWJ8u7E.cache
+  -rw-rw-r--. 1 bill bill  7064 Jan 22 23:33 APIrJfXoY0q_gCsIA9hpQ0VPjyT802SSqMbEB2603uY.cache
+  -rw-rw-r--. 1 bill bill  2465 Jan 22 23:33 APY89OAPJx9A3D3xcCoktvEvQUs7NcWChYXnjjjPzz0.cache
+  -rw-rw-r--. 1 bill bill   279 Jan 22 23:33 ar-vCJ5uZ2qybMdg7cYus_eI2iV0bNwrs2oE4mDJGm4.cache
+  -rw-rw-r--. 1 bill bill   156 Jan 22 23:33 BvbvNTd3P3VkDlOeT-MEdoIWGg-Y_lY5FdoHcZ0bwAA.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 c-sRpcZYP4nLtuS3OXvxZz8YWcfoZ4TOL4wPEIRESsQ.cache
+  -rw-rw-r--. 1 bill bill   836 Jan 22 23:33 d0eqep8tfKREOWL6orazhPiuZTOANaWNu0Txmw3z1CA.cache
+  -rw-rw-r--. 1 bill bill   283 Jan 22 23:33 DA51I-YSPDvBgOo5r2dRe0ILKkY_Qo2Cj0XoBBX--iQ.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 DgiUNXf3KtPG_p7RpORz1Hqtte5PJC5I575V57IZjFs.cache
+  -rw-rw-r--. 1 bill bill    41 Jan 22 23:33 ee9ZqYM3D8GORlAyhQhVVtyNcEArBAXuuAcPhnfTNT8.cache
+  -rw-rw-r--. 1 bill bill  1116 Jan 22 23:33 G78q4NPcHJoAkamm2Ml00egzSA2kdX7i7tWF-UBh8Io.cache
+  -rw-rw-r--. 1 bill bill 85254 Jan 22 23:33 g8MWHtS9g5UqdasUrajlt4QO7verGX9ljxCFn-3TwN8.cache
+  -rw-rw-r--. 1 bill bill   130 Jan 22 23:33 H4OAtYi3JRksBJrEzy9JN6p0htG4Om7bEt-jQozAGhs.cache
+  -rw-rw-r--. 1 bill bill   930 Jan 22 23:33 h_tkbDKHtxNabntZTlW3-DOl7jdJnVHcoKWUBom2YZQ.cache
+  -rw-rw-r--. 1 bill bill   207 Jan 22 23:33 iWhsQEZzmqo559tEypkxRJaOcaOjU1fDPyvheH1wtHk.cache
+  -rw-rw-r--. 1 bill bill   244 Jan 22 23:33 j5zgJYPeNzs5xykrhV0RY4xMaLyVtOUsdLkqb9TDbvQ.cache
+  -rw-rw-r--. 1 bill bill   216 Jan 22 23:33 JChHVbwIyZdepuvXF89OE3R5zfB4Qeqk-8c2tOMad7M.cache
+  -rw-rw-r--. 1 bill bill   125 Jan 22 23:33 jQfsNjdiVaSbXo_-1Og9hsgXusm-YrihttJCinSjeqk.cache
+  -rw-rw-r--. 1 bill bill   144 Jan 22 23:33 jqt9MepJSn4HwMudSAd9g7bVqX93832X2u3UwUUX_VQ.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 JVKCp9MdxDaF0wb11RRdwmLiIEDHLf0gPvqwSHiV4V8.cache
+  -rw-rw-r--. 1 bill bill  2653 Jan 22 23:33 kSkCWaAJCcTgZ_AhrRCjZhNtkE12cubiq70uNtditqk.cache
+  -rw-rw-r--. 1 bill bill   140 Jan 22 23:33 lZUWTtIZHduqwjX8WZN6x96TC1Ku3Y1bLeFuY-tL9t8.cache
+  -rw-rw-r--. 1 bill bill   930 Jan 22 23:33 M3kt8Yy86v0fFhlNsKUDZOcarwC6Ta4WH-miPet-NNk.cache
+  -rw-rw-r--. 1 bill bill   239 Jan 22 23:33 m8RV6Jib53pxfhAQaiTgUFJpfYn-raiX_ujaG-cnyP0.cache
+  -rw-rw-r--. 1 bill bill 97040 Jan 22 23:33 MEgAzg8FArCUMiKrkRlFloPpKZOAwZJD7eQydPB_nxc.cache
+  -rw-rw-r--. 1 bill bill   207 Jan 22 23:33 MQvu2WkmK5fiPmiWWh9vFx8c8KO06YdiLMC4NJfnyI4.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 -Mt-qhAGn8LWBFhc01VXjHtT6GK-eGJNzDEodk-YLBk.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 N3uFcCmOjbagcF5kfYiVqLHvT3oXkd36LDgG4ftIuto.cache
+  -rw-rw-r--. 1 bill bill   301 Jan 22 23:33 nCbiuFJiVuGteW4RlEpYNUDj2DDTaoVaq28UiHzWgqo.cache
+  -rw-rw-r--. 1 bill bill   407 Jan 22 23:33 OI6uxGcnsKavdWTtwDAasU3wPx8QXhzBgV0X2n1KjMQ.cache
+  -rw-rw-r--. 1 bill bill   140 Jan 22 23:33 q8PfTDXNuFpw7q462jNwNFVwy-bJP72fqnL_yF_Pp0Q.cache
+  -rw-rw-r--. 1 bill bill  5798 Jan 22 23:33 QAbjx0J7fYpABPrNCfo82m02dbZTXRnlqtzLd4BVYw0.cache
+  -rw-rw-r--. 1 bill bill   836 Jan 22 23:33 QpnNWI7QzKuEH8fXdGga49_nB9s6CJK2uijTXaUPdG8.cache
+  -rw-rw-r--. 1 bill bill   193 Jan 22 23:33 QWG8of09mCaiy97hU7fjRVm4wePxF02S0sXDuu8q3kY.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 Rcf8vYHcGCm_n3YRU9vRbw3WtWYbFdAn1BnHhI6p2fQ.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 RIxLOcpEMeCdxKs0OhInyDSJ-P52XQ9YsoBlZqqqEOQ.cache
+  -rw-rw-r--. 1 bill bill  6478 Jan 22 23:33 SuhtC6f7E2-1SXl4bkRvOKqhzFKTjPvbglVtjbjV6WQ.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 SWL4AEpwv2aW5kBGQplcUmGzeNPv-ipcw4Iq6oJXLJA.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 UkqSUx0EMUXZ0e1ipy7E4_V1v_pLSPpeIHPPgw8DCtQ.cache
+  -rw-rw-r--. 1 bill bill   156 Jan 22 23:33 uWNYMWZj-N5blRvnZommOcpl58KpYOWCSz_xTU-8Yew.cache
+  -rw-rw-r--. 1 bill bill  1938 Jan 22 23:33 -UZYN0Su9nNYVhbWtvxxtZICYppCNP6ne0B6Hc7QSc4.cache
+  -rw-rw-r--. 1 bill bill  1126 Jan 22 23:33 W_Z79tJBGPb67c2vHyo6DMUCfyFGi_ypL4ieGDVUwqY.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 x9p-Zlo-NrdReW1-sWuZ2Es0PxZ7KNhxjCe8dgLUmOY.cache
+  -rw-rw-r--. 1 bill bill   140 Jan 22 23:33 XBlTVDHWEvZeTiPCvJ6tPW18fkc6WyCrTmOJiilPBTw.cache
+  -rw-rw-r--. 1 bill bill   212 Jan 22 23:33 xjMLSgEopVuIRRAB2WO5mw4RmD3qqmcqtC0J0QPag78.cache
+  -rw-rw-r--. 1 bill bill  2629 Jan 22 23:33 XlHpWIN8msEAkAu2KWtxpXC0JCR6r4bPYhkQTFySiDg.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 YIPkVPetJfS8vaUIdiT_3RQTZ6Vs1QvMfewWLHqS2f4.cache
+  -rw-rw-r--. 1 bill bill   145 Jan 22 23:33 yjkCyaH3etEv6obmA9siKhJtEpfCDGl_GAucPqgc1xI.cache
+  -rw-rw-r--. 1 bill bill   239 Jan 22 23:33 yLpW_7_mv--d0YbIr5xg2toqjT15wQBe0qKxuJz9mw0.cache
+  -rw-rw-r--. 1 bill bill    36 Jan 22 23:33 Z7YykUTrFryhxd2UyryfCkg-UupuVR8G4pNK7pOAqwo.cache
+  -rw-rw-r--. 1 bill bill  2024 Jan 22 23:33 z9pqs_7m_BQQsQRMzLcnjVzlNybN1mOtuel7xh2lQxo.cache
+  -rw-rw-r--. 1 bill bill   218 Jan 22 23:33 zJRybZBPhVDYV1_HcU0vyawOcAGmGOIRaRbb_YqCPx0.cache
+
+  /home/bill/rails_app/ch3_done/vendor:
+  total 4
+  drwxrwxr-x. 4 bill bill 4096 Jan 22 22:51 assets
+
+  /home/bill/rails_app/ch3_done/vendor/assets:
+  total 8
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 javascripts
+  drwxrwxr-x. 2 bill bill 4096 Jan 22 22:51 stylesheets
+
+  /home/bill/rails_app/ch3_done/vendor/assets/javascripts:
+  total 0
+
+  /home/bill/rails_app/ch3_done/vendor/assets/stylesheets:
+  total 0
