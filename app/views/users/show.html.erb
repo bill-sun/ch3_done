@@ -1,2 +1,19 @@
 <!--# 6.3.2 User Model, View, Controller -->
 <%= @user.name %>, <%= @user.email %>
+<!-- 7.3.3 A User Sidebar -->
+<table class="profile" summary="Profile information">
+  <tr>
+    <td class="main">
+      <h1>
+        <%= gravatar_for @user %>
+        <%= @user.name %>
+      </h1>
+    </td>
+    <td class="sidebar round">
+      <strong>Name</strong> <%= @user.name %><br />
+      <strong>URL</strong> <%= link_to user_path(@user), @user %>
+    </td>
+  </tr>
+</table>
+
+

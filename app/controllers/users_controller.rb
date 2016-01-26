@@ -12,6 +12,7 @@
 class UsersController < ApplicationController
   def show # 6.3.2 User Model, View, Controller
     @user = User.find(params[:id])
+	@title = @user.name # 7.3.2 A Name and a Gravatar
   end
   def new
 	@title = "Sign up"

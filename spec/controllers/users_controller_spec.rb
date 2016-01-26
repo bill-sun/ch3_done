@@ -19,6 +19,7 @@ RSpec.describe UsersController, type: :controller do
 	before(:each) do
       #	  @user = Factory(:user)
       @user = FactoryGirl.create(:user)
+      # User.stub!(:find, @user.id).and_return(@user) # stubbing technology but failed -- bill
 	end
 
 	it "should be successful" do
@@ -30,8 +31,25 @@ RSpec.describe UsersController, type: :controller do
 	  get :show, :id => @user
 	  expect(assigns(:user)).to eql(@user)
 	end
-  end
 
+    # 7.3.2 A Name and a Gravatar
+
+    it "should have the right title" do
+      get :show, :id => @user
+      response.should have_selector("title", :content => @user.name)
+    end
+
+    it "should include the user's name" do
+      get :show, :id => @user
+      response.should have_selector("h1", :content => @user.name)
+    end
+
+    it "should have a profile image" do
+      get :show, :id => @user
+      response.should have_selector("h1>img", :class => "gravatar")
+    end
+  end
+  
   describe "GET #new" do
     it "returns http success" do
       get :new
